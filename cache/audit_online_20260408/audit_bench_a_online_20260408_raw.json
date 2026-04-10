@@ -1,0 +1,373 @@
+[
+  {
+    "session_id": "retry_1024_1_0.5_fa517d",
+    "prefix_tokens": 1024,
+    "num_retries": 1,
+    "p_fail": 0.5,
+    "ttfts": [
+      1.320162604097277,
+      0.028993235900998116
+    ],
+    "retries": 1,
+    "wall_sec": 2.7154293060302734,
+    "extra": {
+      "prefix_tokens": 1024,
+      "p_fail": 0.5,
+      "initial_ttft": 1.320162604097277,
+      "retry_ttfts": [
+        0.028993235900998116
+      ]
+    }
+  },
+  {
+    "session_id": "retry_1024_1_1.0_7ab1ce",
+    "prefix_tokens": 1024,
+    "num_retries": 1,
+    "p_fail": 1.0,
+    "ttfts": [
+      0.028290276881307364,
+      0.02845218894071877
+    ],
+    "retries": 1,
+    "wall_sec": 1.4234459400177002,
+    "extra": {
+      "prefix_tokens": 1024,
+      "p_fail": 1.0,
+      "initial_ttft": 0.028290276881307364,
+      "retry_ttfts": [
+        0.02845218894071877
+      ]
+    }
+  },
+  {
+    "session_id": "retry_1024_2_0.5_811cfa",
+    "prefix_tokens": 1024,
+    "num_retries": 2,
+    "p_fail": 0.5,
+    "ttfts": [
+      0.028571909992024302
+    ],
+    "retries": 0,
+    "wall_sec": 0.7137143611907959,
+    "extra": {
+      "prefix_tokens": 1024,
+      "p_fail": 0.5,
+      "initial_ttft": 0.028571909992024302,
+      "retry_ttfts": []
+    }
+  },
+  {
+    "session_id": "retry_1024_2_1.0_34543e",
+    "prefix_tokens": 1024,
+    "num_retries": 2,
+    "p_fail": 1.0,
+    "ttfts": [
+      0.028660931857302785,
+      0.028464899165555835,
+      0.028327906969934702
+    ],
+    "retries": 2,
+    "wall_sec": 2.13657546043396,
+    "extra": {
+      "prefix_tokens": 1024,
+      "p_fail": 1.0,
+      "initial_ttft": 0.028660931857302785,
+      "retry_ttfts": [
+        0.028464899165555835,
+        0.028327906969934702
+      ]
+    }
+  },
+  {
+    "session_id": "retry_1024_4_0.5_8c3b73",
+    "prefix_tokens": 1024,
+    "num_retries": 4,
+    "p_fail": 0.5,
+    "ttfts": [
+      0.028484959853813052
+    ],
+    "retries": 0,
+    "wall_sec": 0.712047815322876,
+    "extra": {
+      "prefix_tokens": 1024,
+      "p_fail": 0.5,
+      "initial_ttft": 0.028484959853813052,
+      "retry_ttfts": []
+    }
+  },
+  {
+    "session_id": "retry_1024_4_1.0_07d4df",
+    "prefix_tokens": 1024,
+    "num_retries": 4,
+    "p_fail": 1.0,
+    "ttfts": [
+      0.028392838081344962,
+      0.028193615842610598,
+      0.028326456900686026,
+      0.02816297486424446,
+      0.028345617931336164
+    ],
+    "retries": 4,
+    "wall_sec": 3.557652711868286,
+    "extra": {
+      "prefix_tokens": 1024,
+      "p_fail": 1.0,
+      "initial_ttft": 0.028392838081344962,
+      "retry_ttfts": [
+        0.028193615842610598,
+        0.028326456900686026,
+        0.02816297486424446,
+        0.028345617931336164
+      ]
+    }
+  },
+  {
+    "session_id": "retry_2048_1_0.5_13877a",
+    "prefix_tokens": 2048,
+    "num_retries": 1,
+    "p_fail": 0.5,
+    "ttfts": [
+      0.03391597978770733,
+      0.03116451413370669
+    ],
+    "retries": 1,
+    "wall_sec": 1.4452974796295166,
+    "extra": {
+      "prefix_tokens": 2048,
+      "p_fail": 0.5,
+      "initial_ttft": 0.03391597978770733,
+      "retry_ttfts": [
+        0.03116451413370669
+      ]
+    }
+  },
+  {
+    "session_id": "retry_2048_1_1.0_bd67b3",
+    "prefix_tokens": 2048,
+    "num_retries": 1,
+    "p_fail": 1.0,
+    "ttfts": [
+      0.0309862419962883,
+      0.03043482406064868
+    ],
+    "retries": 1,
+    "wall_sec": 1.4417698383331299,
+    "extra": {
+      "prefix_tokens": 2048,
+      "p_fail": 1.0,
+      "initial_ttft": 0.0309862419962883,
+      "retry_ttfts": [
+        0.03043482406064868
+      ]
+    }
+  },
+  {
+    "session_id": "retry_2048_2_0.5_4f149e",
+    "prefix_tokens": 2048,
+    "num_retries": 2,
+    "p_fail": 0.5,
+    "ttfts": [
+      0.030880830017849803
+    ],
+    "retries": 0,
+    "wall_sec": 0.7205278873443604,
+    "extra": {
+      "prefix_tokens": 2048,
+      "p_fail": 0.5,
+      "initial_ttft": 0.030880830017849803,
+      "retry_ttfts": []
+    }
+  },
+  {
+    "session_id": "retry_2048_2_1.0_35f2d0",
+    "prefix_tokens": 2048,
+    "num_retries": 2,
+    "p_fail": 1.0,
+    "ttfts": [
+      0.030987011967226863,
+      0.030961340991780162,
+      0.030894601019099355
+    ],
+    "retries": 2,
+    "wall_sec": 2.1612322330474854,
+    "extra": {
+      "prefix_tokens": 2048,
+      "p_fail": 1.0,
+      "initial_ttft": 0.030987011967226863,
+      "retry_ttfts": [
+        0.030961340991780162,
+        0.030894601019099355
+      ]
+    }
+  },
+  {
+    "session_id": "retry_2048_4_0.5_7b7f79",
+    "prefix_tokens": 2048,
+    "num_retries": 4,
+    "p_fail": 0.5,
+    "ttfts": [
+      0.03090137103572488,
+      0.030956100905314088,
+      0.030931462068110704
+    ],
+    "retries": 2,
+    "wall_sec": 2.1642189025878906,
+    "extra": {
+      "prefix_tokens": 2048,
+      "p_fail": 0.5,
+      "initial_ttft": 0.03090137103572488,
+      "retry_ttfts": [
+        0.030956100905314088,
+        0.030931462068110704
+      ]
+    }
+  },
+  {
+    "session_id": "retry_2048_4_1.0_650c3c",
+    "prefix_tokens": 2048,
+    "num_retries": 4,
+    "p_fail": 1.0,
+    "ttfts": [
+      0.031245395075529814,
+      0.03097928105853498,
+      0.030865451088175178,
+      0.030929001048207283,
+      0.030945360893383622
+    ],
+    "retries": 4,
+    "wall_sec": 3.6030538082122803,
+    "extra": {
+      "prefix_tokens": 2048,
+      "p_fail": 1.0,
+      "initial_ttft": 0.031245395075529814,
+      "retry_ttfts": [
+        0.03097928105853498,
+        0.030865451088175178,
+        0.030929001048207283,
+        0.030945360893383622
+      ]
+    }
+  },
+  {
+    "session_id": "retry_4096_1_0.5_a7967d",
+    "prefix_tokens": 4096,
+    "num_retries": 1,
+    "p_fail": 0.5,
+    "ttfts": [
+      0.035885395016521215,
+      0.03577885404229164
+    ],
+    "retries": 1,
+    "wall_sec": 1.7851972579956055,
+    "extra": {
+      "prefix_tokens": 4096,
+      "p_fail": 0.5,
+      "initial_ttft": 0.035885395016521215,
+      "retry_ttfts": [
+        0.03577885404229164
+      ]
+    }
+  },
+  {
+    "session_id": "retry_4096_1_1.0_133ba9",
+    "prefix_tokens": 4096,
+    "num_retries": 1,
+    "p_fail": 1.0,
+    "ttfts": [
+      0.03572979290038347,
+      0.03605302795767784
+    ],
+    "retries": 1,
+    "wall_sec": 1.7860891819000244,
+    "extra": {
+      "prefix_tokens": 4096,
+      "p_fail": 1.0,
+      "initial_ttft": 0.03572979290038347,
+      "retry_ttfts": [
+        0.03605302795767784
+      ]
+    }
+  },
+  {
+    "session_id": "retry_4096_2_0.5_efef00",
+    "prefix_tokens": 4096,
+    "num_retries": 2,
+    "p_fail": 0.5,
+    "ttfts": [
+      0.03567592310719192
+    ],
+    "retries": 0,
+    "wall_sec": 0.8920691013336182,
+    "extra": {
+      "prefix_tokens": 4096,
+      "p_fail": 0.5,
+      "initial_ttft": 0.03567592310719192,
+      "retry_ttfts": []
+    }
+  },
+  {
+    "session_id": "retry_4096_2_1.0_7353fc",
+    "prefix_tokens": 4096,
+    "num_retries": 2,
+    "p_fail": 1.0,
+    "ttfts": [
+      0.035920415073633194,
+      0.03558943094685674,
+      0.03582119499333203
+    ],
+    "retries": 2,
+    "wall_sec": 2.6765315532684326,
+    "extra": {
+      "prefix_tokens": 4096,
+      "p_fail": 1.0,
+      "initial_ttft": 0.035920415073633194,
+      "retry_ttfts": [
+        0.03558943094685674,
+        0.03582119499333203
+      ]
+    }
+  },
+  {
+    "session_id": "retry_4096_4_0.5_ef031e",
+    "prefix_tokens": 4096,
+    "num_retries": 4,
+    "p_fail": 0.5,
+    "ttfts": [
+      0.035811953945085406
+    ],
+    "retries": 0,
+    "wall_sec": 0.8919625282287598,
+    "extra": {
+      "prefix_tokens": 4096,
+      "p_fail": 0.5,
+      "initial_ttft": 0.035811953945085406,
+      "retry_ttfts": []
+    }
+  },
+  {
+    "session_id": "retry_4096_4_1.0_f58289",
+    "prefix_tokens": 4096,
+    "num_retries": 4,
+    "p_fail": 1.0,
+    "ttfts": [
+      0.03582923486828804,
+      0.036009507020935416,
+      0.03612125804647803,
+      0.03604086791165173,
+      0.03567343298345804
+    ],
+    "retries": 4,
+    "wall_sec": 4.462108612060547,
+    "extra": {
+      "prefix_tokens": 4096,
+      "p_fail": 1.0,
+      "initial_ttft": 0.03582923486828804,
+      "retry_ttfts": [
+        0.036009507020935416,
+        0.03612125804647803,
+        0.03604086791165173,
+        0.03567343298345804
+      ]
+    }
+  }
+]

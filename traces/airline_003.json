@@ -1,0 +1,161 @@
+{
+  "trace_id": "airline_003",
+  "domain": "airline",
+  "turns": [
+    {
+      "role": "system",
+      "token_count": 1025
+    },
+    {
+      "role": "user",
+      "token_count": 191
+    },
+    {
+      "role": "assistant",
+      "token_count": 238
+    },
+    {
+      "role": "user",
+      "token_count": 155
+    },
+    {
+      "role": "assistant",
+      "token_count": 255
+    },
+    {
+      "role": "user",
+      "token_count": 113
+    },
+    {
+      "role": "assistant",
+      "token_count": 118,
+      "tool_name": "search_flights",
+      "tool_latency_sec": 2.53
+    },
+    {
+      "role": "tool",
+      "token_count": 139,
+      "tool_name": "search_flights",
+      "tool_latency_sec": 0,
+      "tool_success": true,
+      "is_retry": false
+    },
+    {
+      "role": "assistant",
+      "token_count": 106,
+      "tool_name": "cancel_booking",
+      "tool_latency_sec": 1.02
+    },
+    {
+      "role": "tool",
+      "token_count": 333,
+      "tool_name": "cancel_booking",
+      "tool_latency_sec": 0,
+      "tool_success": true,
+      "is_retry": false
+    },
+    {
+      "role": "assistant",
+      "token_count": 218,
+      "tool_name": "update_booking",
+      "tool_latency_sec": 1.84
+    },
+    {
+      "role": "tool",
+      "token_count": 171,
+      "tool_name": "update_booking",
+      "tool_latency_sec": 0,
+      "tool_success": true,
+      "is_retry": false
+    },
+    {
+      "role": "assistant",
+      "token_count": 121,
+      "tool_name": "get_seat_map",
+      "tool_latency_sec": 1.68
+    },
+    {
+      "role": "tool",
+      "token_count": 649,
+      "tool_name": "get_seat_map",
+      "tool_latency_sec": 0,
+      "tool_success": true,
+      "is_retry": false
+    },
+    {
+      "role": "assistant",
+      "token_count": 57,
+      "tool_name": "update_booking",
+      "tool_latency_sec": 1.54
+    },
+    {
+      "role": "tool",
+      "token_count": 371,
+      "tool_name": "update_booking",
+      "tool_latency_sec": 0,
+      "tool_success": false,
+      "is_retry": true
+    },
+    {
+      "role": "assistant",
+      "token_count": 138
+    },
+    {
+      "role": "user",
+      "token_count": 130
+    },
+    {
+      "role": "assistant",
+      "token_count": 161
+    },
+    {
+      "role": "user",
+      "token_count": 180
+    },
+    {
+      "role": "assistant",
+      "token_count": 79,
+      "tool_name": "get_seat_map",
+      "tool_latency_sec": 1.22
+    },
+    {
+      "role": "tool",
+      "token_count": 145,
+      "tool_name": "get_seat_map",
+      "tool_latency_sec": 0,
+      "tool_success": true,
+      "is_retry": false
+    },
+    {
+      "role": "assistant",
+      "token_count": 50,
+      "tool_name": "get_seat_map",
+      "tool_latency_sec": 2.31
+    },
+    {
+      "role": "tool",
+      "token_count": 786,
+      "tool_name": "get_seat_map",
+      "tool_latency_sec": 0,
+      "tool_success": true,
+      "is_retry": false
+    },
+    {
+      "role": "assistant",
+      "token_count": 160,
+      "tool_name": "update_booking",
+      "tool_latency_sec": 2.87
+    },
+    {
+      "role": "tool",
+      "token_count": 779,
+      "tool_name": "update_booking",
+      "tool_latency_sec": 0,
+      "tool_success": true,
+      "is_retry": false
+    }
+  ],
+  "total_tokens": 6868,
+  "num_tool_calls": 8,
+  "num_retries": 1
+}

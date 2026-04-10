@@ -1,0 +1,311 @@
+{
+  "run_id": "fair_fix_bench_d_online_20260408",
+  "num_sessions": 6,
+  "sessions": {
+    "replay_retail_001_32f8": {
+      "generate_calls": 7,
+      "prompt_tokens": 23545,
+      "gen_tokens": 425,
+      "retries": 2,
+      "tool_stall_sec": 5.714,
+      "avg_ttft_sec": 0.2088,
+      "wall_sec": 15.21
+    },
+    "replay_retail_002_7899": {
+      "generate_calls": 11,
+      "prompt_tokens": 47777,
+      "gen_tokens": 887,
+      "retries": 1,
+      "tool_stall_sec": 14.748,
+      "avg_ttft_sec": 0.1013,
+      "wall_sec": 32.911
+    },
+    "replay_retail_003_0fda": {
+      "generate_calls": 8,
+      "prompt_tokens": 28520,
+      "gen_tokens": 891,
+      "retries": 0,
+      "tool_stall_sec": 3.602,
+      "avg_ttft_sec": 0.0803,
+      "wall_sec": 21.299
+    },
+    "replay_retail_004_314a": {
+      "generate_calls": 11,
+      "prompt_tokens": 52307,
+      "gen_tokens": 1165,
+      "retries": 0,
+      "tool_stall_sec": 14.078,
+      "avg_ttft_sec": 0.0952,
+      "wall_sec": 37.63
+    },
+    "replay_retail_005_052e": {
+      "generate_calls": 10,
+      "prompt_tokens": 48695,
+      "gen_tokens": 978,
+      "retries": 0,
+      "tool_stall_sec": 6.617,
+      "avg_ttft_sec": 0.1073,
+      "wall_sec": 26.586
+    },
+    "replay_airline_001_9fd0": {
+      "generate_calls": 0,
+      "prompt_tokens": 0,
+      "gen_tokens": 0,
+      "retries": 0,
+      "tool_stall_sec": 0.0,
+      "avg_ttft_sec": null,
+      "wall_sec": 0.0
+    }
+  },
+  "kv_cache": {
+    "gpu_usage_pct_mean": 0.0134,
+    "gpu_usage_pct_max": 0.0362,
+    "total_preemptions": 0,
+    "num_snapshots": 263
+  },
+  "derived_metrics": {
+    "retry_prefill_savings": [
+      {
+        "session_id": "replay_retail_001_32f8",
+        "initial_ttft_avg": 0.2374,
+        "retry_ttft_avg": 0.0373,
+        "savings_ratio": 0.8428,
+        "savings_ms": 200.09
+      },
+      {
+        "session_id": "replay_retail_002_7899",
+        "initial_ttft_avg": 0.1082,
+        "retry_ttft_avg": 0.0331,
+        "savings_ratio": 0.6935,
+        "savings_ms": 75.01
+      }
+    ],
+    "stall_periods": [
+      {
+        "tool_name": "get_order_details",
+        "bucket": "medium",
+        "duration_sec": 1.5212,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_order_details",
+        "bucket": "short",
+        "duration_sec": 0.8307,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_user_info",
+        "bucket": "short",
+        "duration_sec": 0.5905,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "update_order",
+        "bucket": "medium",
+        "duration_sec": 1.4709,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "cancel_order",
+        "bucket": "medium",
+        "duration_sec": 1.301,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "search_product",
+        "bucket": "medium",
+        "duration_sec": 2.5004,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "update_order",
+        "bucket": "medium",
+        "duration_sec": 2.3613,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_order_details",
+        "bucket": "medium",
+        "duration_sec": 1.4114,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "cancel_order",
+        "bucket": "short",
+        "duration_sec": 0.9011,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "search_product",
+        "bucket": "medium",
+        "duration_sec": 2.8109,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "cancel_order",
+        "bucket": "medium",
+        "duration_sec": 1.0909,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_user_info",
+        "bucket": "short",
+        "duration_sec": 0.6814,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "search_product",
+        "bucket": "medium",
+        "duration_sec": 2.9906,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "cancel_order",
+        "bucket": "medium",
+        "duration_sec": 1.2904,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "cancel_order",
+        "bucket": "short",
+        "duration_sec": 0.5014,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_order_details",
+        "bucket": "medium",
+        "duration_sec": 1.8107,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "update_order",
+        "bucket": "medium",
+        "duration_sec": 2.4711,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_user_info",
+        "bucket": "short",
+        "duration_sec": 0.9602,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_user_info",
+        "bucket": "short",
+        "duration_sec": 0.8406,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "update_order",
+        "bucket": "medium",
+        "duration_sec": 2.5811,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "update_order",
+        "bucket": "medium",
+        "duration_sec": 2.3112,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "update_order",
+        "bucket": "medium",
+        "duration_sec": 1.0612,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_order_details",
+        "bucket": "short",
+        "duration_sec": 0.8416,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "update_order",
+        "bucket": "medium",
+        "duration_sec": 3.0108,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_order_details",
+        "bucket": "short",
+        "duration_sec": 0.6515,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_order_details",
+        "bucket": "medium",
+        "duration_sec": 1.5111,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_user_info",
+        "bucket": "short",
+        "duration_sec": 0.6106,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_order_details",
+        "bucket": "medium",
+        "duration_sec": 1.1615,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "search_product",
+        "bucket": "medium",
+        "duration_sec": 1.1715,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_order_details",
+        "bucket": "short",
+        "duration_sec": 0.7506,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_user_info",
+        "bucket": "short",
+        "duration_sec": 0.7608,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      }
+    ],
+    "branch_prefix_reuse": [],
+    "avg_retry_savings_ratio": 0.7681
+  },
+  "global": {
+    "total_retries": 3,
+    "ttft_p50": 0.0782,
+    "ttft_p95": 0.1786,
+    "ttft_mean": 0.1136
+  }
+}

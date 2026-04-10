@@ -1,0 +1,131 @@
+{
+  "trace_id": "airline_005",
+  "domain": "airline",
+  "turns": [
+    {
+      "role": "system",
+      "token_count": 1151
+    },
+    {
+      "role": "user",
+      "token_count": 102
+    },
+    {
+      "role": "assistant",
+      "token_count": 278
+    },
+    {
+      "role": "user",
+      "token_count": 77
+    },
+    {
+      "role": "assistant",
+      "token_count": 249,
+      "tool_name": "get_booking",
+      "tool_latency_sec": 1.71
+    },
+    {
+      "role": "tool",
+      "token_count": 630,
+      "tool_name": "get_booking",
+      "tool_latency_sec": 0,
+      "tool_success": true,
+      "is_retry": false
+    },
+    {
+      "role": "assistant",
+      "token_count": 192,
+      "tool_name": "search_flights",
+      "tool_latency_sec": 2.83
+    },
+    {
+      "role": "tool",
+      "token_count": 575,
+      "tool_name": "search_flights",
+      "tool_latency_sec": 0,
+      "tool_success": true,
+      "is_retry": false
+    },
+    {
+      "role": "assistant",
+      "token_count": 193,
+      "tool_name": "cancel_booking",
+      "tool_latency_sec": 1.42
+    },
+    {
+      "role": "tool",
+      "token_count": 616,
+      "tool_name": "cancel_booking",
+      "tool_latency_sec": 0,
+      "tool_success": true,
+      "is_retry": false
+    },
+    {
+      "role": "assistant",
+      "token_count": 282,
+      "tool_name": "get_booking",
+      "tool_latency_sec": 1.62
+    },
+    {
+      "role": "tool",
+      "token_count": 586,
+      "tool_name": "get_booking",
+      "tool_latency_sec": 0,
+      "tool_success": true,
+      "is_retry": false
+    },
+    {
+      "role": "assistant",
+      "token_count": 242,
+      "tool_name": "update_booking",
+      "tool_latency_sec": 3.3
+    },
+    {
+      "role": "tool",
+      "token_count": 633,
+      "tool_name": "update_booking",
+      "tool_latency_sec": 0,
+      "tool_success": true,
+      "is_retry": false
+    },
+    {
+      "role": "assistant",
+      "token_count": 111,
+      "tool_name": "search_flights",
+      "tool_latency_sec": 3.85
+    },
+    {
+      "role": "tool",
+      "token_count": 340,
+      "tool_name": "search_flights",
+      "tool_latency_sec": 0,
+      "tool_success": true,
+      "is_retry": false
+    },
+    {
+      "role": "assistant",
+      "token_count": 131
+    },
+    {
+      "role": "user",
+      "token_count": 70
+    },
+    {
+      "role": "assistant",
+      "token_count": 85,
+      "tool_name": "cancel_booking",
+      "tool_latency_sec": 1.54
+    },
+    {
+      "role": "tool",
+      "token_count": 319,
+      "tool_name": "cancel_booking",
+      "tool_latency_sec": 0,
+      "tool_success": false,
+      "is_retry": true
+    }
+  ],
+  "total_tokens": 6862,
+  "num_tool_calls": 7,
+  "num_retries": 1
+}

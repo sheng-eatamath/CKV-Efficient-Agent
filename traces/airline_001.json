@@ -1,0 +1,119 @@
+{
+  "trace_id": "airline_001",
+  "domain": "airline",
+  "turns": [
+    {
+      "role": "system",
+      "token_count": 1413
+    },
+    {
+      "role": "user",
+      "token_count": 161
+    },
+    {
+      "role": "assistant",
+      "token_count": 291
+    },
+    {
+      "role": "user",
+      "token_count": 113
+    },
+    {
+      "role": "assistant",
+      "token_count": 198,
+      "tool_name": "get_seat_map",
+      "tool_latency_sec": 0.98
+    },
+    {
+      "role": "tool",
+      "token_count": 773,
+      "tool_name": "get_seat_map",
+      "tool_latency_sec": 0,
+      "tool_success": true,
+      "is_retry": false
+    },
+    {
+      "role": "assistant",
+      "token_count": 183,
+      "tool_name": "update_booking",
+      "tool_latency_sec": 1.61
+    },
+    {
+      "role": "tool",
+      "token_count": 421,
+      "tool_name": "update_booking",
+      "tool_latency_sec": 0,
+      "tool_success": false,
+      "is_retry": true
+    },
+    {
+      "role": "assistant",
+      "token_count": 221
+    },
+    {
+      "role": "user",
+      "token_count": 167
+    },
+    {
+      "role": "assistant",
+      "token_count": 130
+    },
+    {
+      "role": "user",
+      "token_count": 68
+    },
+    {
+      "role": "assistant",
+      "token_count": 52,
+      "tool_name": "get_seat_map",
+      "tool_latency_sec": 2.99
+    },
+    {
+      "role": "tool",
+      "token_count": 175,
+      "tool_name": "get_seat_map",
+      "tool_latency_sec": 0,
+      "tool_success": true,
+      "is_retry": false
+    },
+    {
+      "role": "assistant",
+      "token_count": 179,
+      "tool_name": "update_booking",
+      "tool_latency_sec": 3.64
+    },
+    {
+      "role": "tool",
+      "token_count": 350,
+      "tool_name": "update_booking",
+      "tool_latency_sec": 0,
+      "tool_success": true,
+      "is_retry": false
+    },
+    {
+      "role": "assistant",
+      "token_count": 90,
+      "tool_name": "get_seat_map",
+      "tool_latency_sec": 2.35
+    },
+    {
+      "role": "tool",
+      "token_count": 726,
+      "tool_name": "get_seat_map",
+      "tool_latency_sec": 0,
+      "tool_success": true,
+      "is_retry": false
+    },
+    {
+      "role": "assistant",
+      "token_count": 256
+    },
+    {
+      "role": "user",
+      "token_count": 52
+    }
+  ],
+  "total_tokens": 6019,
+  "num_tool_calls": 5,
+  "num_retries": 1
+}

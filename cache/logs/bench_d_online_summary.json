@@ -1,0 +1,1808 @@
+{
+  "run_id": "bench_d_online",
+  "num_sessions": 30,
+  "sessions": {
+    "replay_airline_001_a029": {
+      "generate_calls": 9,
+      "prompt_tokens": 29665,
+      "gen_tokens": 924,
+      "retries": 1,
+      "tool_stall_sec": 11.574,
+      "avg_ttft_sec": 0.2277,
+      "wall_sec": 31.218
+    },
+    "replay_airline_002_d440": {
+      "generate_calls": 14,
+      "prompt_tokens": 55236,
+      "gen_tokens": 1753,
+      "retries": 0,
+      "tool_stall_sec": 11.864,
+      "avg_ttft_sec": 0.0633,
+      "wall_sec": 46.386
+    },
+    "replay_airline_003_b14b": {
+      "generate_calls": 12,
+      "prompt_tokens": 36015,
+      "gen_tokens": 1444,
+      "retries": 1,
+      "tool_stall_sec": 15.018,
+      "avg_ttft_sec": 0.0685,
+      "wall_sec": 43.327
+    },
+    "replay_airline_004_b725": {
+      "generate_calls": 10,
+      "prompt_tokens": 44153,
+      "gen_tokens": 1229,
+      "retries": 1,
+      "tool_stall_sec": 10.328,
+      "avg_ttft_sec": 0.0923,
+      "wall_sec": 34.937
+    },
+    "replay_airline_005_7604": {
+      "generate_calls": 9,
+      "prompt_tokens": 30833,
+      "gen_tokens": 948,
+      "retries": 1,
+      "tool_stall_sec": 16.277,
+      "avg_ttft_sec": 0.09,
+      "wall_sec": 35.19
+    },
+    "replay_retail_001_54f6": {
+      "generate_calls": 7,
+      "prompt_tokens": 21562,
+      "gen_tokens": 868,
+      "retries": 2,
+      "tool_stall_sec": 5.714,
+      "avg_ttft_sec": 0.0761,
+      "wall_sec": 22.777
+    },
+    "replay_retail_002_819e": {
+      "generate_calls": 11,
+      "prompt_tokens": 45528,
+      "gen_tokens": 1298,
+      "retries": 1,
+      "tool_stall_sec": 14.747,
+      "avg_ttft_sec": 0.0925,
+      "wall_sec": 40.693
+    },
+    "replay_retail_003_6ae5": {
+      "generate_calls": 8,
+      "prompt_tokens": 25225,
+      "gen_tokens": 915,
+      "retries": 0,
+      "tool_stall_sec": 3.602,
+      "avg_ttft_sec": 0.0671,
+      "wall_sec": 21.551
+    },
+    "replay_retail_004_114d": {
+      "generate_calls": 11,
+      "prompt_tokens": 42543,
+      "gen_tokens": 1406,
+      "retries": 0,
+      "tool_stall_sec": 14.076,
+      "avg_ttft_sec": 0.0784,
+      "wall_sec": 41.899
+    },
+    "replay_retail_005_2533": {
+      "generate_calls": 13,
+      "prompt_tokens": 62980,
+      "gen_tokens": 1496,
+      "retries": 0,
+      "tool_stall_sec": 9.571,
+      "avg_ttft_sec": 0.099,
+      "wall_sec": 39.723
+    },
+    "replay_airline_001_8c1a": {
+      "generate_calls": 9,
+      "prompt_tokens": 29665,
+      "gen_tokens": 924,
+      "retries": 1,
+      "tool_stall_sec": 11.573,
+      "avg_ttft_sec": 0.0455,
+      "wall_sec": 31.129
+    },
+    "replay_airline_002_2a13": {
+      "generate_calls": 14,
+      "prompt_tokens": 54944,
+      "gen_tokens": 1731,
+      "retries": 0,
+      "tool_stall_sec": 11.865,
+      "avg_ttft_sec": 0.066,
+      "wall_sec": 48.246
+    },
+    "replay_airline_003_7f6b": {
+      "generate_calls": 12,
+      "prompt_tokens": 35674,
+      "gen_tokens": 1312,
+      "retries": 1,
+      "tool_stall_sec": 15.018,
+      "avg_ttft_sec": 0.0726,
+      "wall_sec": 42.96
+    },
+    "replay_airline_004_d9c5": {
+      "generate_calls": 10,
+      "prompt_tokens": 44153,
+      "gen_tokens": 1229,
+      "retries": 1,
+      "tool_stall_sec": 10.326,
+      "avg_ttft_sec": 0.0453,
+      "wall_sec": 36.365
+    },
+    "replay_airline_005_ab77": {
+      "generate_calls": 9,
+      "prompt_tokens": 30833,
+      "gen_tokens": 948,
+      "retries": 1,
+      "tool_stall_sec": 16.273,
+      "avg_ttft_sec": 0.0421,
+      "wall_sec": 36.457
+    },
+    "replay_retail_001_8105": {
+      "generate_calls": 7,
+      "prompt_tokens": 21562,
+      "gen_tokens": 868,
+      "retries": 2,
+      "tool_stall_sec": 5.715,
+      "avg_ttft_sec": 0.0397,
+      "wall_sec": 23.915
+    },
+    "replay_retail_002_c5fe": {
+      "generate_calls": 11,
+      "prompt_tokens": 45528,
+      "gen_tokens": 1298,
+      "retries": 1,
+      "tool_stall_sec": 14.748,
+      "avg_ttft_sec": 0.0453,
+      "wall_sec": 41.822
+    },
+    "replay_retail_003_ac21": {
+      "generate_calls": 8,
+      "prompt_tokens": 25017,
+      "gen_tokens": 894,
+      "retries": 0,
+      "tool_stall_sec": 3.602,
+      "avg_ttft_sec": 0.054,
+      "wall_sec": 22.229
+    },
+    "replay_retail_004_7c8b": {
+      "generate_calls": 11,
+      "prompt_tokens": 42543,
+      "gen_tokens": 1406,
+      "retries": 0,
+      "tool_stall_sec": 14.077,
+      "avg_ttft_sec": 0.0663,
+      "wall_sec": 43.429
+    },
+    "replay_retail_005_7377": {
+      "generate_calls": 13,
+      "prompt_tokens": 62980,
+      "gen_tokens": 1496,
+      "retries": 0,
+      "tool_stall_sec": 9.568,
+      "avg_ttft_sec": 0.0434,
+      "wall_sec": 40.163
+    },
+    "replay_airline_001_d250": {
+      "generate_calls": 9,
+      "prompt_tokens": 29892,
+      "gen_tokens": 1006,
+      "retries": 1,
+      "tool_stall_sec": 11.573,
+      "avg_ttft_sec": 0.0854,
+      "wall_sec": 34.671
+    },
+    "replay_airline_002_9b33": {
+      "generate_calls": 14,
+      "prompt_tokens": 54944,
+      "gen_tokens": 1731,
+      "retries": 0,
+      "tool_stall_sec": 11.865,
+      "avg_ttft_sec": 0.048,
+      "wall_sec": 50.467
+    },
+    "replay_airline_003_3676": {
+      "generate_calls": 12,
+      "prompt_tokens": 36015,
+      "gen_tokens": 1444,
+      "retries": 1,
+      "tool_stall_sec": 15.016,
+      "avg_ttft_sec": 0.05,
+      "wall_sec": 47.524
+    },
+    "replay_airline_004_7bc2": {
+      "generate_calls": 10,
+      "prompt_tokens": 44153,
+      "gen_tokens": 1229,
+      "retries": 1,
+      "tool_stall_sec": 10.324,
+      "avg_ttft_sec": 0.0468,
+      "wall_sec": 38.556
+    },
+    "replay_airline_005_aaa6": {
+      "generate_calls": 9,
+      "prompt_tokens": 30833,
+      "gen_tokens": 948,
+      "retries": 1,
+      "tool_stall_sec": 16.275,
+      "avg_ttft_sec": 0.0466,
+      "wall_sec": 37.819
+    },
+    "replay_retail_001_e2f0": {
+      "generate_calls": 7,
+      "prompt_tokens": 21562,
+      "gen_tokens": 868,
+      "retries": 2,
+      "tool_stall_sec": 5.715,
+      "avg_ttft_sec": 0.0505,
+      "wall_sec": 25.246
+    },
+    "replay_retail_002_90e6": {
+      "generate_calls": 11,
+      "prompt_tokens": 45528,
+      "gen_tokens": 1298,
+      "retries": 1,
+      "tool_stall_sec": 14.745,
+      "avg_ttft_sec": 0.0511,
+      "wall_sec": 43.923
+    },
+    "replay_retail_003_3e3d": {
+      "generate_calls": 8,
+      "prompt_tokens": 25017,
+      "gen_tokens": 894,
+      "retries": 0,
+      "tool_stall_sec": 3.601,
+      "avg_ttft_sec": 0.0497,
+      "wall_sec": 23.218
+    },
+    "replay_retail_004_6ec3": {
+      "generate_calls": 11,
+      "prompt_tokens": 42543,
+      "gen_tokens": 1406,
+      "retries": 0,
+      "tool_stall_sec": 14.076,
+      "avg_ttft_sec": 0.0539,
+      "wall_sec": 44.815
+    },
+    "replay_retail_005_7608": {
+      "generate_calls": 13,
+      "prompt_tokens": 62980,
+      "gen_tokens": 1496,
+      "retries": 0,
+      "tool_stall_sec": 9.567,
+      "avg_ttft_sec": 0.0461,
+      "wall_sec": 41.965
+    }
+  },
+  "kv_cache": {
+    "gpu_usage_pct_mean": 0.0212,
+    "gpu_usage_pct_max": 0.1284,
+    "total_preemptions": 0,
+    "num_snapshots": 1053
+  },
+  "derived_metrics": {
+    "retry_prefill_savings": [
+      {
+        "session_id": "replay_airline_001_a029",
+        "initial_ttft_avg": 0.2452,
+        "retry_ttft_avg": 0.0871,
+        "savings_ratio": 0.645,
+        "savings_ms": 158.16
+      },
+      {
+        "session_id": "replay_airline_003_b14b",
+        "initial_ttft_avg": 0.0669,
+        "retry_ttft_avg": 0.0862,
+        "savings_ratio": -0.2889,
+        "savings_ms": -19.33
+      },
+      {
+        "session_id": "replay_airline_004_b725",
+        "initial_ttft_avg": 0.0884,
+        "retry_ttft_avg": 0.1272,
+        "savings_ratio": -0.4384,
+        "savings_ms": -38.76
+      },
+      {
+        "session_id": "replay_retail_001_54f6",
+        "initial_ttft_avg": 0.074,
+        "retry_ttft_avg": 0.0891,
+        "savings_ratio": -0.2038,
+        "savings_ms": -15.08
+      },
+      {
+        "session_id": "replay_retail_002_819e",
+        "initial_ttft_avg": 0.0916,
+        "retry_ttft_avg": 0.102,
+        "savings_ratio": -0.114,
+        "savings_ms": -10.45
+      },
+      {
+        "session_id": "replay_airline_001_8c1a",
+        "initial_ttft_avg": 0.0437,
+        "retry_ttft_avg": 0.06,
+        "savings_ratio": -0.3714,
+        "savings_ms": -16.24
+      },
+      {
+        "session_id": "replay_airline_003_7f6b",
+        "initial_ttft_avg": 0.0719,
+        "retry_ttft_avg": 0.0805,
+        "savings_ratio": -0.1187,
+        "savings_ms": -8.54
+      },
+      {
+        "session_id": "replay_airline_004_d9c5",
+        "initial_ttft_avg": 0.0468,
+        "retry_ttft_avg": 0.0323,
+        "savings_ratio": 0.3089,
+        "savings_ms": 14.44
+      },
+      {
+        "session_id": "replay_retail_001_8105",
+        "initial_ttft_avg": 0.0403,
+        "retry_ttft_avg": 0.0361,
+        "savings_ratio": 0.1041,
+        "savings_ms": 4.2
+      },
+      {
+        "session_id": "replay_retail_002_c5fe",
+        "initial_ttft_avg": 0.0466,
+        "retry_ttft_avg": 0.0327,
+        "savings_ratio": 0.2993,
+        "savings_ms": 13.95
+      },
+      {
+        "session_id": "replay_airline_001_d250",
+        "initial_ttft_avg": 0.0839,
+        "retry_ttft_avg": 0.0976,
+        "savings_ratio": -0.1635,
+        "savings_ms": -13.72
+      },
+      {
+        "session_id": "replay_airline_003_3676",
+        "initial_ttft_avg": 0.0495,
+        "retry_ttft_avg": 0.0557,
+        "savings_ratio": -0.1274,
+        "savings_ms": -6.3
+      },
+      {
+        "session_id": "replay_airline_004_7bc2",
+        "initial_ttft_avg": 0.0481,
+        "retry_ttft_avg": 0.0354,
+        "savings_ratio": 0.2641,
+        "savings_ms": 12.69
+      },
+      {
+        "session_id": "replay_retail_001_e2f0",
+        "initial_ttft_avg": 0.0506,
+        "retry_ttft_avg": 0.0495,
+        "savings_ratio": 0.0224,
+        "savings_ms": 1.14
+      },
+      {
+        "session_id": "replay_retail_002_90e6",
+        "initial_ttft_avg": 0.0516,
+        "retry_ttft_avg": 0.0462,
+        "savings_ratio": 0.1048,
+        "savings_ms": 5.41
+      }
+    ],
+    "stall_periods": [
+      {
+        "tool_name": "get_seat_map",
+        "bucket": "short",
+        "duration_sec": 0.9809,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "update_booking",
+        "bucket": "medium",
+        "duration_sec": 1.6106,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_seat_map",
+        "bucket": "medium",
+        "duration_sec": 2.9905,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "update_booking",
+        "bucket": "medium",
+        "duration_sec": 3.6407,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_seat_map",
+        "bucket": "medium",
+        "duration_sec": 2.3511,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_seat_map",
+        "bucket": "medium",
+        "duration_sec": 1.261,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "search_flights",
+        "bucket": "medium",
+        "duration_sec": 1.3707,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_booking",
+        "bucket": "medium",
+        "duration_sec": 1.4605,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "cancel_booking",
+        "bucket": "medium",
+        "duration_sec": 1.3404,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "search_flights",
+        "bucket": "medium",
+        "duration_sec": 4.3409,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "update_booking",
+        "bucket": "medium",
+        "duration_sec": 2.0908,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "search_flights",
+        "bucket": "medium",
+        "duration_sec": 2.5305,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "cancel_booking",
+        "bucket": "medium",
+        "duration_sec": 1.0207,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "update_booking",
+        "bucket": "medium",
+        "duration_sec": 1.8408,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_seat_map",
+        "bucket": "medium",
+        "duration_sec": 1.6809,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "update_booking",
+        "bucket": "medium",
+        "duration_sec": 1.5416,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_seat_map",
+        "bucket": "medium",
+        "duration_sec": 1.2213,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_seat_map",
+        "bucket": "medium",
+        "duration_sec": 2.3109,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "update_booking",
+        "bucket": "medium",
+        "duration_sec": 2.8709,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "cancel_booking",
+        "bucket": "medium",
+        "duration_sec": 1.5508,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_booking",
+        "bucket": "medium",
+        "duration_sec": 1.4206,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "update_booking",
+        "bucket": "medium",
+        "duration_sec": 1.6313,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "cancel_booking",
+        "bucket": "medium",
+        "duration_sec": 1.5113,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_seat_map",
+        "bucket": "medium",
+        "duration_sec": 2.2617,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_booking",
+        "bucket": "short",
+        "duration_sec": 0.7207,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_seat_map",
+        "bucket": "medium",
+        "duration_sec": 1.2321,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_booking",
+        "bucket": "medium",
+        "duration_sec": 1.7103,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "search_flights",
+        "bucket": "medium",
+        "duration_sec": 2.8309,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "cancel_booking",
+        "bucket": "medium",
+        "duration_sec": 1.421,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_booking",
+        "bucket": "medium",
+        "duration_sec": 1.6218,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "update_booking",
+        "bucket": "medium",
+        "duration_sec": 3.3008,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "search_flights",
+        "bucket": "medium",
+        "duration_sec": 3.8513,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "cancel_booking",
+        "bucket": "medium",
+        "duration_sec": 1.5404,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_order_details",
+        "bucket": "medium",
+        "duration_sec": 1.5205,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_order_details",
+        "bucket": "short",
+        "duration_sec": 0.8304,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_user_info",
+        "bucket": "short",
+        "duration_sec": 0.5902,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "update_order",
+        "bucket": "medium",
+        "duration_sec": 1.4716,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "cancel_order",
+        "bucket": "medium",
+        "duration_sec": 1.301,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "search_product",
+        "bucket": "medium",
+        "duration_sec": 2.5009,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "update_order",
+        "bucket": "medium",
+        "duration_sec": 2.3614,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_order_details",
+        "bucket": "medium",
+        "duration_sec": 1.4105,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "cancel_order",
+        "bucket": "short",
+        "duration_sec": 0.9007,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "search_product",
+        "bucket": "medium",
+        "duration_sec": 2.8108,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "cancel_order",
+        "bucket": "medium",
+        "duration_sec": 1.091,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_user_info",
+        "bucket": "short",
+        "duration_sec": 0.681,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "search_product",
+        "bucket": "medium",
+        "duration_sec": 2.991,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "cancel_order",
+        "bucket": "medium",
+        "duration_sec": 1.2907,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "cancel_order",
+        "bucket": "short",
+        "duration_sec": 0.5013,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_order_details",
+        "bucket": "medium",
+        "duration_sec": 1.8105,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "update_order",
+        "bucket": "medium",
+        "duration_sec": 2.4706,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_user_info",
+        "bucket": "short",
+        "duration_sec": 0.9607,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_user_info",
+        "bucket": "short",
+        "duration_sec": 0.8409,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "update_order",
+        "bucket": "medium",
+        "duration_sec": 2.5813,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "update_order",
+        "bucket": "medium",
+        "duration_sec": 2.3105,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "update_order",
+        "bucket": "medium",
+        "duration_sec": 1.061,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_order_details",
+        "bucket": "short",
+        "duration_sec": 0.8409,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "update_order",
+        "bucket": "medium",
+        "duration_sec": 3.0107,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_order_details",
+        "bucket": "short",
+        "duration_sec": 0.6506,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_order_details",
+        "bucket": "medium",
+        "duration_sec": 1.5104,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_user_info",
+        "bucket": "short",
+        "duration_sec": 0.6114,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_order_details",
+        "bucket": "medium",
+        "duration_sec": 1.1623,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "search_product",
+        "bucket": "medium",
+        "duration_sec": 1.1704,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_order_details",
+        "bucket": "short",
+        "duration_sec": 0.7515,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_user_info",
+        "bucket": "short",
+        "duration_sec": 0.7611,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_order_details",
+        "bucket": "medium",
+        "duration_sec": 1.3708,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_user_info",
+        "bucket": "short",
+        "duration_sec": 0.6313,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "search_product",
+        "bucket": "short",
+        "duration_sec": 0.9508,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_seat_map",
+        "bucket": "short",
+        "duration_sec": 0.9808,
+        "mean_gpu_pct": 0.0163,
+        "waste_gpu_mem_sec": 0.016
+      },
+      {
+        "tool_name": "update_booking",
+        "bucket": "medium",
+        "duration_sec": 1.6106,
+        "mean_gpu_pct": 0.0134,
+        "waste_gpu_mem_sec": 0.0216
+      },
+      {
+        "tool_name": "get_seat_map",
+        "bucket": "medium",
+        "duration_sec": 2.991,
+        "mean_gpu_pct": 0.0216,
+        "waste_gpu_mem_sec": 0.0646
+      },
+      {
+        "tool_name": "update_booking",
+        "bucket": "medium",
+        "duration_sec": 3.6404,
+        "mean_gpu_pct": 0.0274,
+        "waste_gpu_mem_sec": 0.0996
+      },
+      {
+        "tool_name": "get_seat_map",
+        "bucket": "medium",
+        "duration_sec": 2.3501,
+        "mean_gpu_pct": 0.034,
+        "waste_gpu_mem_sec": 0.08
+      },
+      {
+        "tool_name": "get_seat_map",
+        "bucket": "medium",
+        "duration_sec": 1.2609,
+        "mean_gpu_pct": 0.0108,
+        "waste_gpu_mem_sec": 0.0136
+      },
+      {
+        "tool_name": "search_flights",
+        "bucket": "medium",
+        "duration_sec": 1.3703,
+        "mean_gpu_pct": 0.0342,
+        "waste_gpu_mem_sec": 0.0468
+      },
+      {
+        "tool_name": "get_booking",
+        "bucket": "medium",
+        "duration_sec": 1.4608,
+        "mean_gpu_pct": 0.0328,
+        "waste_gpu_mem_sec": 0.048
+      },
+      {
+        "tool_name": "cancel_booking",
+        "bucket": "medium",
+        "duration_sec": 1.341,
+        "mean_gpu_pct": 0.0075,
+        "waste_gpu_mem_sec": 0.0101
+      },
+      {
+        "tool_name": "search_flights",
+        "bucket": "medium",
+        "duration_sec": 4.3409,
+        "mean_gpu_pct": 0.0376,
+        "waste_gpu_mem_sec": 0.1631
+      },
+      {
+        "tool_name": "update_booking",
+        "bucket": "medium",
+        "duration_sec": 2.0911,
+        "mean_gpu_pct": 0.0374,
+        "waste_gpu_mem_sec": 0.0782
+      },
+      {
+        "tool_name": "search_flights",
+        "bucket": "medium",
+        "duration_sec": 2.5319,
+        "mean_gpu_pct": 0.0145,
+        "waste_gpu_mem_sec": 0.0368
+      },
+      {
+        "tool_name": "cancel_booking",
+        "bucket": "medium",
+        "duration_sec": 1.022,
+        "mean_gpu_pct": 0.0246,
+        "waste_gpu_mem_sec": 0.0251
+      },
+      {
+        "tool_name": "update_booking",
+        "bucket": "medium",
+        "duration_sec": 1.8404,
+        "mean_gpu_pct": 0.0213,
+        "waste_gpu_mem_sec": 0.0393
+      },
+      {
+        "tool_name": "get_seat_map",
+        "bucket": "medium",
+        "duration_sec": 1.6813,
+        "mean_gpu_pct": 0.0381,
+        "waste_gpu_mem_sec": 0.0641
+      },
+      {
+        "tool_name": "update_booking",
+        "bucket": "medium",
+        "duration_sec": 1.5407,
+        "mean_gpu_pct": 0.0474,
+        "waste_gpu_mem_sec": 0.0731
+      },
+      {
+        "tool_name": "get_seat_map",
+        "bucket": "medium",
+        "duration_sec": 1.2207,
+        "mean_gpu_pct": 0.0355,
+        "waste_gpu_mem_sec": 0.0433
+      },
+      {
+        "tool_name": "get_seat_map",
+        "bucket": "medium",
+        "duration_sec": 2.3102,
+        "mean_gpu_pct": 0.0307,
+        "waste_gpu_mem_sec": 0.0709
+      },
+      {
+        "tool_name": "update_booking",
+        "bucket": "medium",
+        "duration_sec": 2.8706,
+        "mean_gpu_pct": 0.0316,
+        "waste_gpu_mem_sec": 0.0907
+      },
+      {
+        "tool_name": "cancel_booking",
+        "bucket": "medium",
+        "duration_sec": 1.5518,
+        "mean_gpu_pct": 0.0139,
+        "waste_gpu_mem_sec": 0.0215
+      },
+      {
+        "tool_name": "get_booking",
+        "bucket": "medium",
+        "duration_sec": 1.4208,
+        "mean_gpu_pct": 0.0067,
+        "waste_gpu_mem_sec": 0.0095
+      },
+      {
+        "tool_name": "update_booking",
+        "bucket": "medium",
+        "duration_sec": 1.6304,
+        "mean_gpu_pct": 0.0233,
+        "waste_gpu_mem_sec": 0.038
+      },
+      {
+        "tool_name": "cancel_booking",
+        "bucket": "medium",
+        "duration_sec": 1.5109,
+        "mean_gpu_pct": 0.0186,
+        "waste_gpu_mem_sec": 0.028
+      },
+      {
+        "tool_name": "get_seat_map",
+        "bucket": "medium",
+        "duration_sec": 2.2604,
+        "mean_gpu_pct": 0.0184,
+        "waste_gpu_mem_sec": 0.0416
+      },
+      {
+        "tool_name": "get_booking",
+        "bucket": "short",
+        "duration_sec": 0.7208,
+        "mean_gpu_pct": 0.018,
+        "waste_gpu_mem_sec": 0.013
+      },
+      {
+        "tool_name": "get_seat_map",
+        "bucket": "medium",
+        "duration_sec": 1.2306,
+        "mean_gpu_pct": 0.0388,
+        "waste_gpu_mem_sec": 0.0477
+      },
+      {
+        "tool_name": "get_booking",
+        "bucket": "medium",
+        "duration_sec": 1.7101,
+        "mean_gpu_pct": 0.0456,
+        "waste_gpu_mem_sec": 0.078
+      },
+      {
+        "tool_name": "search_flights",
+        "bucket": "medium",
+        "duration_sec": 2.8301,
+        "mean_gpu_pct": 0.0334,
+        "waste_gpu_mem_sec": 0.0945
+      },
+      {
+        "tool_name": "cancel_booking",
+        "bucket": "medium",
+        "duration_sec": 1.4206,
+        "mean_gpu_pct": 0.0374,
+        "waste_gpu_mem_sec": 0.0531
+      },
+      {
+        "tool_name": "get_booking",
+        "bucket": "medium",
+        "duration_sec": 1.6204,
+        "mean_gpu_pct": 0.0228,
+        "waste_gpu_mem_sec": 0.0369
+      },
+      {
+        "tool_name": "update_booking",
+        "bucket": "medium",
+        "duration_sec": 3.3007,
+        "mean_gpu_pct": 0.0282,
+        "waste_gpu_mem_sec": 0.0931
+      },
+      {
+        "tool_name": "search_flights",
+        "bucket": "medium",
+        "duration_sec": 3.8506,
+        "mean_gpu_pct": 0.024,
+        "waste_gpu_mem_sec": 0.0925
+      },
+      {
+        "tool_name": "cancel_booking",
+        "bucket": "medium",
+        "duration_sec": 1.5403,
+        "mean_gpu_pct": 0.0198,
+        "waste_gpu_mem_sec": 0.0306
+      },
+      {
+        "tool_name": "get_order_details",
+        "bucket": "medium",
+        "duration_sec": 1.5207,
+        "mean_gpu_pct": 0.0315,
+        "waste_gpu_mem_sec": 0.0478
+      },
+      {
+        "tool_name": "get_order_details",
+        "bucket": "short",
+        "duration_sec": 0.8302,
+        "mean_gpu_pct": 0.0376,
+        "waste_gpu_mem_sec": 0.0312
+      },
+      {
+        "tool_name": "get_user_info",
+        "bucket": "short",
+        "duration_sec": 0.5911,
+        "mean_gpu_pct": 0.039,
+        "waste_gpu_mem_sec": 0.023
+      },
+      {
+        "tool_name": "update_order",
+        "bucket": "medium",
+        "duration_sec": 1.4709,
+        "mean_gpu_pct": 0.0189,
+        "waste_gpu_mem_sec": 0.0277
+      },
+      {
+        "tool_name": "cancel_order",
+        "bucket": "medium",
+        "duration_sec": 1.302,
+        "mean_gpu_pct": 0.0187,
+        "waste_gpu_mem_sec": 0.0244
+      },
+      {
+        "tool_name": "search_product",
+        "bucket": "medium",
+        "duration_sec": 2.5011,
+        "mean_gpu_pct": 0.0437,
+        "waste_gpu_mem_sec": 0.1093
+      },
+      {
+        "tool_name": "update_order",
+        "bucket": "medium",
+        "duration_sec": 2.3608,
+        "mean_gpu_pct": 0.029,
+        "waste_gpu_mem_sec": 0.0686
+      },
+      {
+        "tool_name": "get_order_details",
+        "bucket": "medium",
+        "duration_sec": 1.4117,
+        "mean_gpu_pct": 0.0401,
+        "waste_gpu_mem_sec": 0.0566
+      },
+      {
+        "tool_name": "cancel_order",
+        "bucket": "short",
+        "duration_sec": 0.9017,
+        "mean_gpu_pct": 0.0166,
+        "waste_gpu_mem_sec": 0.015
+      },
+      {
+        "tool_name": "search_product",
+        "bucket": "medium",
+        "duration_sec": 2.8104,
+        "mean_gpu_pct": 0.0233,
+        "waste_gpu_mem_sec": 0.0655
+      },
+      {
+        "tool_name": "cancel_order",
+        "bucket": "medium",
+        "duration_sec": 1.0903,
+        "mean_gpu_pct": 0.0097,
+        "waste_gpu_mem_sec": 0.0106
+      },
+      {
+        "tool_name": "get_user_info",
+        "bucket": "short",
+        "duration_sec": 0.6808,
+        "mean_gpu_pct": 0.0239,
+        "waste_gpu_mem_sec": 0.0163
+      },
+      {
+        "tool_name": "search_product",
+        "bucket": "medium",
+        "duration_sec": 2.991,
+        "mean_gpu_pct": 0.0179,
+        "waste_gpu_mem_sec": 0.0535
+      },
+      {
+        "tool_name": "cancel_order",
+        "bucket": "medium",
+        "duration_sec": 1.2905,
+        "mean_gpu_pct": 0.0161,
+        "waste_gpu_mem_sec": 0.0208
+      },
+      {
+        "tool_name": "cancel_order",
+        "bucket": "short",
+        "duration_sec": 0.5007,
+        "mean_gpu_pct": 0.0408,
+        "waste_gpu_mem_sec": 0.0205
+      },
+      {
+        "tool_name": "get_order_details",
+        "bucket": "medium",
+        "duration_sec": 1.8106,
+        "mean_gpu_pct": 0.0169,
+        "waste_gpu_mem_sec": 0.0306
+      },
+      {
+        "tool_name": "update_order",
+        "bucket": "medium",
+        "duration_sec": 2.4708,
+        "mean_gpu_pct": 0.0235,
+        "waste_gpu_mem_sec": 0.0579
+      },
+      {
+        "tool_name": "get_user_info",
+        "bucket": "short",
+        "duration_sec": 0.9606,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_user_info",
+        "bucket": "short",
+        "duration_sec": 0.8415,
+        "mean_gpu_pct": 0.0303,
+        "waste_gpu_mem_sec": 0.0255
+      },
+      {
+        "tool_name": "update_order",
+        "bucket": "medium",
+        "duration_sec": 2.5802,
+        "mean_gpu_pct": 0.0199,
+        "waste_gpu_mem_sec": 0.0514
+      },
+      {
+        "tool_name": "update_order",
+        "bucket": "medium",
+        "duration_sec": 2.3112,
+        "mean_gpu_pct": 0.0173,
+        "waste_gpu_mem_sec": 0.0399
+      },
+      {
+        "tool_name": "update_order",
+        "bucket": "medium",
+        "duration_sec": 1.0608,
+        "mean_gpu_pct": 0.0264,
+        "waste_gpu_mem_sec": 0.028
+      },
+      {
+        "tool_name": "get_order_details",
+        "bucket": "short",
+        "duration_sec": 0.841,
+        "mean_gpu_pct": 0.028,
+        "waste_gpu_mem_sec": 0.0236
+      },
+      {
+        "tool_name": "update_order",
+        "bucket": "medium",
+        "duration_sec": 3.0113,
+        "mean_gpu_pct": 0.0284,
+        "waste_gpu_mem_sec": 0.0855
+      },
+      {
+        "tool_name": "get_order_details",
+        "bucket": "short",
+        "duration_sec": 0.6505,
+        "mean_gpu_pct": 0.0403,
+        "waste_gpu_mem_sec": 0.0262
+      },
+      {
+        "tool_name": "get_order_details",
+        "bucket": "medium",
+        "duration_sec": 1.5107,
+        "mean_gpu_pct": 0.0112,
+        "waste_gpu_mem_sec": 0.0169
+      },
+      {
+        "tool_name": "get_user_info",
+        "bucket": "short",
+        "duration_sec": 0.6107,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_order_details",
+        "bucket": "medium",
+        "duration_sec": 1.1606,
+        "mean_gpu_pct": 0.0435,
+        "waste_gpu_mem_sec": 0.0505
+      },
+      {
+        "tool_name": "search_product",
+        "bucket": "medium",
+        "duration_sec": 1.1702,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_order_details",
+        "bucket": "short",
+        "duration_sec": 0.7506,
+        "mean_gpu_pct": 0.0242,
+        "waste_gpu_mem_sec": 0.0181
+      },
+      {
+        "tool_name": "get_user_info",
+        "bucket": "short",
+        "duration_sec": 0.7609,
+        "mean_gpu_pct": 0.0279,
+        "waste_gpu_mem_sec": 0.0213
+      },
+      {
+        "tool_name": "get_order_details",
+        "bucket": "medium",
+        "duration_sec": 1.3711,
+        "mean_gpu_pct": 0.0189,
+        "waste_gpu_mem_sec": 0.0259
+      },
+      {
+        "tool_name": "get_user_info",
+        "bucket": "short",
+        "duration_sec": 0.631,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "search_product",
+        "bucket": "short",
+        "duration_sec": 0.9512,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "get_seat_map",
+        "bucket": "short",
+        "duration_sec": 0.9804,
+        "mean_gpu_pct": 0.0181,
+        "waste_gpu_mem_sec": 0.0178
+      },
+      {
+        "tool_name": "update_booking",
+        "bucket": "medium",
+        "duration_sec": 1.611,
+        "mean_gpu_pct": 0.0307,
+        "waste_gpu_mem_sec": 0.0495
+      },
+      {
+        "tool_name": "get_seat_map",
+        "bucket": "medium",
+        "duration_sec": 2.9911,
+        "mean_gpu_pct": 0.0518,
+        "waste_gpu_mem_sec": 0.1548
+      },
+      {
+        "tool_name": "update_booking",
+        "bucket": "medium",
+        "duration_sec": 3.6404,
+        "mean_gpu_pct": 0.0541,
+        "waste_gpu_mem_sec": 0.1971
+      },
+      {
+        "tool_name": "get_seat_map",
+        "bucket": "medium",
+        "duration_sec": 2.3502,
+        "mean_gpu_pct": 0.051,
+        "waste_gpu_mem_sec": 0.1199
+      },
+      {
+        "tool_name": "get_seat_map",
+        "bucket": "medium",
+        "duration_sec": 1.2617,
+        "mean_gpu_pct": 0.0278,
+        "waste_gpu_mem_sec": 0.0351
+      },
+      {
+        "tool_name": "search_flights",
+        "bucket": "medium",
+        "duration_sec": 1.3704,
+        "mean_gpu_pct": 0.0618,
+        "waste_gpu_mem_sec": 0.0847
+      },
+      {
+        "tool_name": "get_booking",
+        "bucket": "medium",
+        "duration_sec": 1.4603,
+        "mean_gpu_pct": 0.0587,
+        "waste_gpu_mem_sec": 0.0857
+      },
+      {
+        "tool_name": "cancel_booking",
+        "bucket": "medium",
+        "duration_sec": 1.3416,
+        "mean_gpu_pct": 0.041,
+        "waste_gpu_mem_sec": 0.055
+      },
+      {
+        "tool_name": "search_flights",
+        "bucket": "medium",
+        "duration_sec": 4.3403,
+        "mean_gpu_pct": 0.0638,
+        "waste_gpu_mem_sec": 0.2768
+      },
+      {
+        "tool_name": "update_booking",
+        "bucket": "medium",
+        "duration_sec": 2.0907,
+        "mean_gpu_pct": 0.0815,
+        "waste_gpu_mem_sec": 0.1703
+      },
+      {
+        "tool_name": "search_flights",
+        "bucket": "medium",
+        "duration_sec": 2.5302,
+        "mean_gpu_pct": 0.0296,
+        "waste_gpu_mem_sec": 0.0748
+      },
+      {
+        "tool_name": "cancel_booking",
+        "bucket": "medium",
+        "duration_sec": 1.021,
+        "mean_gpu_pct": 0.0551,
+        "waste_gpu_mem_sec": 0.0563
+      },
+      {
+        "tool_name": "update_booking",
+        "bucket": "medium",
+        "duration_sec": 1.8417,
+        "mean_gpu_pct": 0.054,
+        "waste_gpu_mem_sec": 0.0994
+      },
+      {
+        "tool_name": "get_seat_map",
+        "bucket": "medium",
+        "duration_sec": 1.6804,
+        "mean_gpu_pct": 0.0972,
+        "waste_gpu_mem_sec": 0.1633
+      },
+      {
+        "tool_name": "update_booking",
+        "bucket": "medium",
+        "duration_sec": 1.5407,
+        "mean_gpu_pct": 0.0609,
+        "waste_gpu_mem_sec": 0.0938
+      },
+      {
+        "tool_name": "get_seat_map",
+        "bucket": "medium",
+        "duration_sec": 1.2202,
+        "mean_gpu_pct": 0.0723,
+        "waste_gpu_mem_sec": 0.0882
+      },
+      {
+        "tool_name": "get_seat_map",
+        "bucket": "medium",
+        "duration_sec": 2.311,
+        "mean_gpu_pct": 0.0511,
+        "waste_gpu_mem_sec": 0.118
+      },
+      {
+        "tool_name": "update_booking",
+        "bucket": "medium",
+        "duration_sec": 2.8706,
+        "mean_gpu_pct": 0.0446,
+        "waste_gpu_mem_sec": 0.128
+      },
+      {
+        "tool_name": "cancel_booking",
+        "bucket": "medium",
+        "duration_sec": 1.5505,
+        "mean_gpu_pct": 0.0165,
+        "waste_gpu_mem_sec": 0.0255
+      },
+      {
+        "tool_name": "get_booking",
+        "bucket": "medium",
+        "duration_sec": 1.4205,
+        "mean_gpu_pct": 0.0259,
+        "waste_gpu_mem_sec": 0.0368
+      },
+      {
+        "tool_name": "update_booking",
+        "bucket": "medium",
+        "duration_sec": 1.6307,
+        "mean_gpu_pct": 0.0556,
+        "waste_gpu_mem_sec": 0.0907
+      },
+      {
+        "tool_name": "cancel_booking",
+        "bucket": "medium",
+        "duration_sec": 1.5103,
+        "mean_gpu_pct": 0.0494,
+        "waste_gpu_mem_sec": 0.0746
+      },
+      {
+        "tool_name": "get_seat_map",
+        "bucket": "medium",
+        "duration_sec": 2.2603,
+        "mean_gpu_pct": 0.042,
+        "waste_gpu_mem_sec": 0.0949
+      },
+      {
+        "tool_name": "get_booking",
+        "bucket": "short",
+        "duration_sec": 0.7214,
+        "mean_gpu_pct": 0.0414,
+        "waste_gpu_mem_sec": 0.0298
+      },
+      {
+        "tool_name": "get_seat_map",
+        "bucket": "medium",
+        "duration_sec": 1.2307,
+        "mean_gpu_pct": 0.0608,
+        "waste_gpu_mem_sec": 0.0748
+      },
+      {
+        "tool_name": "get_booking",
+        "bucket": "medium",
+        "duration_sec": 1.7106,
+        "mean_gpu_pct": 0.0179,
+        "waste_gpu_mem_sec": 0.0306
+      },
+      {
+        "tool_name": "search_flights",
+        "bucket": "medium",
+        "duration_sec": 2.8302,
+        "mean_gpu_pct": 0.0374,
+        "waste_gpu_mem_sec": 0.1057
+      },
+      {
+        "tool_name": "cancel_booking",
+        "bucket": "medium",
+        "duration_sec": 1.4207,
+        "mean_gpu_pct": 0.0582,
+        "waste_gpu_mem_sec": 0.0827
+      },
+      {
+        "tool_name": "get_booking",
+        "bucket": "medium",
+        "duration_sec": 1.6205,
+        "mean_gpu_pct": 0.0562,
+        "waste_gpu_mem_sec": 0.0911
+      },
+      {
+        "tool_name": "update_booking",
+        "bucket": "medium",
+        "duration_sec": 3.3008,
+        "mean_gpu_pct": 0.0461,
+        "waste_gpu_mem_sec": 0.1521
+      },
+      {
+        "tool_name": "search_flights",
+        "bucket": "medium",
+        "duration_sec": 3.8509,
+        "mean_gpu_pct": 0.0672,
+        "waste_gpu_mem_sec": 0.2589
+      },
+      {
+        "tool_name": "cancel_booking",
+        "bucket": "medium",
+        "duration_sec": 1.5408,
+        "mean_gpu_pct": 0.0801,
+        "waste_gpu_mem_sec": 0.1234
+      },
+      {
+        "tool_name": "get_order_details",
+        "bucket": "medium",
+        "duration_sec": 1.5212,
+        "mean_gpu_pct": 0.0165,
+        "waste_gpu_mem_sec": 0.025
+      },
+      {
+        "tool_name": "get_order_details",
+        "bucket": "short",
+        "duration_sec": 0.8307,
+        "mean_gpu_pct": 0.0278,
+        "waste_gpu_mem_sec": 0.0231
+      },
+      {
+        "tool_name": "get_user_info",
+        "bucket": "short",
+        "duration_sec": 0.5906,
+        "mean_gpu_pct": 0.0548,
+        "waste_gpu_mem_sec": 0.0323
+      },
+      {
+        "tool_name": "update_order",
+        "bucket": "medium",
+        "duration_sec": 1.4707,
+        "mean_gpu_pct": 0.0467,
+        "waste_gpu_mem_sec": 0.0686
+      },
+      {
+        "tool_name": "cancel_order",
+        "bucket": "medium",
+        "duration_sec": 1.3018,
+        "mean_gpu_pct": 0.0433,
+        "waste_gpu_mem_sec": 0.0564
+      },
+      {
+        "tool_name": "search_product",
+        "bucket": "medium",
+        "duration_sec": 2.5006,
+        "mean_gpu_pct": 0.0213,
+        "waste_gpu_mem_sec": 0.0532
+      },
+      {
+        "tool_name": "update_order",
+        "bucket": "medium",
+        "duration_sec": 2.3601,
+        "mean_gpu_pct": 0.0374,
+        "waste_gpu_mem_sec": 0.0882
+      },
+      {
+        "tool_name": "get_order_details",
+        "bucket": "medium",
+        "duration_sec": 1.4107,
+        "mean_gpu_pct": 0.0606,
+        "waste_gpu_mem_sec": 0.0854
+      },
+      {
+        "tool_name": "cancel_order",
+        "bucket": "short",
+        "duration_sec": 0.9009,
+        "mean_gpu_pct": 0.0488,
+        "waste_gpu_mem_sec": 0.0439
+      },
+      {
+        "tool_name": "search_product",
+        "bucket": "medium",
+        "duration_sec": 2.8107,
+        "mean_gpu_pct": 0.0717,
+        "waste_gpu_mem_sec": 0.2016
+      },
+      {
+        "tool_name": "cancel_order",
+        "bucket": "medium",
+        "duration_sec": 1.0902,
+        "mean_gpu_pct": 0.0811,
+        "waste_gpu_mem_sec": 0.0884
+      },
+      {
+        "tool_name": "get_user_info",
+        "bucket": "short",
+        "duration_sec": 0.6808,
+        "mean_gpu_pct": 0.0778,
+        "waste_gpu_mem_sec": 0.0529
+      },
+      {
+        "tool_name": "search_product",
+        "bucket": "medium",
+        "duration_sec": 2.9907,
+        "mean_gpu_pct": 0.0463,
+        "waste_gpu_mem_sec": 0.1386
+      },
+      {
+        "tool_name": "cancel_order",
+        "bucket": "medium",
+        "duration_sec": 1.2906,
+        "mean_gpu_pct": 0.0233,
+        "waste_gpu_mem_sec": 0.0301
+      },
+      {
+        "tool_name": "cancel_order",
+        "bucket": "short",
+        "duration_sec": 0.5002,
+        "mean_gpu_pct": 0.0677,
+        "waste_gpu_mem_sec": 0.0338
+      },
+      {
+        "tool_name": "get_order_details",
+        "bucket": "medium",
+        "duration_sec": 1.8103,
+        "mean_gpu_pct": 0.08,
+        "waste_gpu_mem_sec": 0.1449
+      },
+      {
+        "tool_name": "update_order",
+        "bucket": "medium",
+        "duration_sec": 2.4706,
+        "mean_gpu_pct": 0.0553,
+        "waste_gpu_mem_sec": 0.1366
+      },
+      {
+        "tool_name": "get_user_info",
+        "bucket": "short",
+        "duration_sec": 0.9604,
+        "mean_gpu_pct": 0.0608,
+        "waste_gpu_mem_sec": 0.0584
+      },
+      {
+        "tool_name": "get_user_info",
+        "bucket": "short",
+        "duration_sec": 0.8409,
+        "mean_gpu_pct": 0.0623,
+        "waste_gpu_mem_sec": 0.0524
+      },
+      {
+        "tool_name": "update_order",
+        "bucket": "medium",
+        "duration_sec": 2.5811,
+        "mean_gpu_pct": 0.0431,
+        "waste_gpu_mem_sec": 0.1113
+      },
+      {
+        "tool_name": "update_order",
+        "bucket": "medium",
+        "duration_sec": 2.311,
+        "mean_gpu_pct": 0.0267,
+        "waste_gpu_mem_sec": 0.0618
+      },
+      {
+        "tool_name": "update_order",
+        "bucket": "medium",
+        "duration_sec": 1.0611,
+        "mean_gpu_pct": 0.0153,
+        "waste_gpu_mem_sec": 0.0162
+      },
+      {
+        "tool_name": "get_order_details",
+        "bucket": "short",
+        "duration_sec": 0.8404,
+        "mean_gpu_pct": 0.0342,
+        "waste_gpu_mem_sec": 0.0287
+      },
+      {
+        "tool_name": "update_order",
+        "bucket": "medium",
+        "duration_sec": 3.0104,
+        "mean_gpu_pct": 0.0125,
+        "waste_gpu_mem_sec": 0.0376
+      },
+      {
+        "tool_name": "get_order_details",
+        "bucket": "short",
+        "duration_sec": 0.6508,
+        "mean_gpu_pct": 0.0738,
+        "waste_gpu_mem_sec": 0.048
+      },
+      {
+        "tool_name": "get_order_details",
+        "bucket": "medium",
+        "duration_sec": 1.5105,
+        "mean_gpu_pct": 0.0987,
+        "waste_gpu_mem_sec": 0.149
+      },
+      {
+        "tool_name": "get_user_info",
+        "bucket": "short",
+        "duration_sec": 0.6109,
+        "mean_gpu_pct": 0.0404,
+        "waste_gpu_mem_sec": 0.0247
+      },
+      {
+        "tool_name": "get_order_details",
+        "bucket": "medium",
+        "duration_sec": 1.1604,
+        "mean_gpu_pct": 0.0789,
+        "waste_gpu_mem_sec": 0.0915
+      },
+      {
+        "tool_name": "search_product",
+        "bucket": "medium",
+        "duration_sec": 1.1717,
+        "mean_gpu_pct": 0.0419,
+        "waste_gpu_mem_sec": 0.0491
+      },
+      {
+        "tool_name": "get_order_details",
+        "bucket": "short",
+        "duration_sec": 0.7502,
+        "mean_gpu_pct": 0.021,
+        "waste_gpu_mem_sec": 0.0157
+      },
+      {
+        "tool_name": "get_user_info",
+        "bucket": "short",
+        "duration_sec": 0.7607,
+        "mean_gpu_pct": 0.0122,
+        "waste_gpu_mem_sec": 0.0092
+      },
+      {
+        "tool_name": "get_order_details",
+        "bucket": "medium",
+        "duration_sec": 1.3704,
+        "mean_gpu_pct": 0.0274,
+        "waste_gpu_mem_sec": 0.0375
+      },
+      {
+        "tool_name": "get_user_info",
+        "bucket": "short",
+        "duration_sec": 0.6304,
+        "mean_gpu_pct": 0.0282,
+        "waste_gpu_mem_sec": 0.0178
+      },
+      {
+        "tool_name": "search_product",
+        "bucket": "short",
+        "duration_sec": 0.9512,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      }
+    ],
+    "branch_prefix_reuse": [],
+    "avg_retry_savings_ratio": -0.0052
+  },
+  "global": {
+    "total_retries": 21,
+    "ttft_p50": 0.0484,
+    "ttft_p95": 0.1462,
+    "ttft_mean": 0.0663
+  }
+}

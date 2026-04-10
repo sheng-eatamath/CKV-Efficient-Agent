@@ -1,0 +1,670 @@
+{
+  "timestamp": "2026-04-09T16:27:46",
+  "num_experiments": 8,
+  "avg_speedup_ratio": 8.5304,
+  "cache_hits": 5,
+  "experiments": [
+    {
+      "experiment_id": "E1",
+      "description": "Retry cold-vs-warm, prefix=1024",
+      "params": {
+        "prefix_tokens": 1024,
+        "gen_tokens": 16,
+        "type": "retry"
+      },
+      "calls": [
+        {
+          "label": "warm",
+          "call_index": 0,
+          "ttft_sec": 1.5063551419880241,
+          "total_sec": 1.8665543508250266,
+          "prompt_tokens": 1121,
+          "completion_tokens": 16
+        },
+        {
+          "label": "warm",
+          "call_index": 1,
+          "ttft_sec": 0.0559464069083333,
+          "total_sec": 0.3985274520236999,
+          "prompt_tokens": 1121,
+          "completion_tokens": 16
+        },
+        {
+          "label": "cold",
+          "call_index": 0,
+          "ttft_sec": 0.19809904391877353,
+          "total_sec": 0.5625743030104786,
+          "prompt_tokens": 1130,
+          "completion_tokens": 16
+        },
+        {
+          "label": "cold",
+          "call_index": 1,
+          "ttft_sec": 0.18499075691215694,
+          "total_sec": 0.5440414699260145,
+          "prompt_tokens": 1129,
+          "completion_tokens": 16
+        }
+      ],
+      "warm_first_ttft": 1.5063551419880241,
+      "warm_second_ttft": 0.0559464069083333,
+      "cold_first_ttft": 0.19809904391877353,
+      "cold_second_ttft": 0.18499075691215694,
+      "speedup_ratio": 3.30657082617047,
+      "cache_hit_detected": true
+    },
+    {
+      "experiment_id": "E2",
+      "description": "Retry cold-vs-warm, prefix=2048",
+      "params": {
+        "prefix_tokens": 2048,
+        "gen_tokens": 16,
+        "type": "retry"
+      },
+      "calls": [
+        {
+          "label": "warm",
+          "call_index": 0,
+          "ttft_sec": 0.3031581360846758,
+          "total_sec": 0.6910760949831456,
+          "prompt_tokens": 2226,
+          "completion_tokens": 16
+        },
+        {
+          "label": "warm",
+          "call_index": 1,
+          "ttft_sec": 0.060848654014989734,
+          "total_sec": 0.4154379479587078,
+          "prompt_tokens": 2226,
+          "completion_tokens": 16
+        },
+        {
+          "label": "cold",
+          "call_index": 0,
+          "ttft_sec": 0.34947286709211767,
+          "total_sec": 0.7037938521243632,
+          "prompt_tokens": 2235,
+          "completion_tokens": 16
+        },
+        {
+          "label": "cold",
+          "call_index": 1,
+          "ttft_sec": 0.3492379770614207,
+          "total_sec": 0.7041751809883863,
+          "prompt_tokens": 2234,
+          "completion_tokens": 16
+        }
+      ],
+      "warm_first_ttft": 0.3031581360846758,
+      "warm_second_ttft": 0.060848654014989734,
+      "cold_first_ttft": 0.34947286709211767,
+      "cold_second_ttft": 0.3492379770614207,
+      "speedup_ratio": 5.739452790120679,
+      "cache_hit_detected": true
+    },
+    {
+      "experiment_id": "E3",
+      "description": "Retry cold-vs-warm, prefix=4096",
+      "params": {
+        "prefix_tokens": 4096,
+        "gen_tokens": 16,
+        "type": "retry"
+      },
+      "calls": [
+        {
+          "label": "warm",
+          "call_index": 0,
+          "ttft_sec": 0.3844245080836117,
+          "total_sec": 0.7619873329531401,
+          "prompt_tokens": 4449,
+          "completion_tokens": 16
+        },
+        {
+          "label": "warm",
+          "call_index": 1,
+          "ttft_sec": 0.043917807983234525,
+          "total_sec": 0.43912885803729296,
+          "prompt_tokens": 4449,
+          "completion_tokens": 16
+        },
+        {
+          "label": "cold",
+          "call_index": 0,
+          "ttft_sec": 0.7035529930144548,
+          "total_sec": 1.0808280289638788,
+          "prompt_tokens": 4458,
+          "completion_tokens": 16
+        },
+        {
+          "label": "cold",
+          "call_index": 1,
+          "ttft_sec": 0.7017609670292586,
+          "total_sec": 1.0797854408156127,
+          "prompt_tokens": 4457,
+          "completion_tokens": 16
+        }
+      ],
+      "warm_first_ttft": 0.3844245080836117,
+      "warm_second_ttft": 0.043917807983234525,
+      "cold_first_ttft": 0.7035529930144548,
+      "cold_second_ttft": 0.7017609670292586,
+      "speedup_ratio": 15.978961593373546,
+      "cache_hit_detected": true
+    },
+    {
+      "experiment_id": "E4",
+      "description": "Branch cold-vs-warm, branches=2, prefix=2048",
+      "params": {
+        "branch_factor": 2,
+        "prefix_tokens": 2048,
+        "suffix_tokens": 128,
+        "gen_tokens": 16,
+        "type": "branch"
+      },
+      "calls": [
+        {
+          "label": "warm",
+          "call_index": 0,
+          "ttft_sec": 0.05881797894835472,
+          "total_sec": 0.43760102102532983,
+          "prompt_tokens": 2376,
+          "completion_tokens": 16
+        },
+        {
+          "label": "warm",
+          "call_index": 1,
+          "ttft_sec": 0.06849663495086133,
+          "total_sec": 0.425738733028993,
+          "prompt_tokens": 2376,
+          "completion_tokens": 16
+        },
+        {
+          "label": "cold",
+          "call_index": 0,
+          "ttft_sec": 0.36355654103681445,
+          "total_sec": 0.7322132489643991,
+          "prompt_tokens": 2385,
+          "completion_tokens": 16
+        },
+        {
+          "label": "cold",
+          "call_index": 1,
+          "ttft_sec": 0.357706825947389,
+          "total_sec": 0.7264957840088755,
+          "prompt_tokens": 2384,
+          "completion_tokens": 16
+        }
+      ],
+      "warm_first_ttft": 0.05881797894835472,
+      "warm_second_ttft": 0.06849663495086133,
+      "cold_first_ttft": 0.36355654103681445,
+      "cold_second_ttft": 0.357706825947389,
+      "speedup_ratio": 5.222254001295153,
+      "cache_hit_detected": false
+    },
+    {
+      "experiment_id": "E5",
+      "description": "Branch cold-vs-warm, branches=4, prefix=2048",
+      "params": {
+        "branch_factor": 4,
+        "prefix_tokens": 2048,
+        "suffix_tokens": 128,
+        "gen_tokens": 16,
+        "type": "branch"
+      },
+      "calls": [
+        {
+          "label": "warm",
+          "call_index": 0,
+          "ttft_sec": 0.04801606712862849,
+          "total_sec": 0.42776338709518313,
+          "prompt_tokens": 2376,
+          "completion_tokens": 16
+        },
+        {
+          "label": "warm",
+          "call_index": 1,
+          "ttft_sec": 0.05957398796454072,
+          "total_sec": 0.42741425801068544,
+          "prompt_tokens": 2376,
+          "completion_tokens": 16
+        },
+        {
+          "label": "warm",
+          "call_index": 2,
+          "ttft_sec": 0.06867964519187808,
+          "total_sec": 0.4373789031524211,
+          "prompt_tokens": 2376,
+          "completion_tokens": 16
+        },
+        {
+          "label": "warm",
+          "call_index": 3,
+          "ttft_sec": 0.06363057694397867,
+          "total_sec": 0.4365035539958626,
+          "prompt_tokens": 2376,
+          "completion_tokens": 16
+        },
+        {
+          "label": "cold",
+          "call_index": 0,
+          "ttft_sec": 0.36107470793649554,
+          "total_sec": 0.7298499848693609,
+          "prompt_tokens": 2385,
+          "completion_tokens": 16
+        },
+        {
+          "label": "cold",
+          "call_index": 1,
+          "ttft_sec": 0.35620417003519833,
+          "total_sec": 0.7046189501415938,
+          "prompt_tokens": 2384,
+          "completion_tokens": 16
+        },
+        {
+          "label": "cold",
+          "call_index": 2,
+          "ttft_sec": 0.3729432469699532,
+          "total_sec": 0.7413473259657621,
+          "prompt_tokens": 2384,
+          "completion_tokens": 16
+        },
+        {
+          "label": "cold",
+          "call_index": 3,
+          "ttft_sec": 0.35994819016195834,
+          "total_sec": 0.7290597769897431,
+          "prompt_tokens": 2383,
+          "completion_tokens": 16
+        }
+      ],
+      "warm_first_ttft": 0.04801606712862849,
+      "warm_second_ttft": 0.06396140336679916,
+      "cold_first_ttft": 0.36107470793649554,
+      "cold_second_ttft": 0.3630318690557033,
+      "speedup_ratio": 5.675795869797073,
+      "cache_hit_detected": false
+    },
+    {
+      "experiment_id": "E6",
+      "description": "Branch cold-vs-warm, branches=8, prefix=2048",
+      "params": {
+        "branch_factor": 8,
+        "prefix_tokens": 2048,
+        "suffix_tokens": 128,
+        "gen_tokens": 16,
+        "type": "branch"
+      },
+      "calls": [
+        {
+          "label": "warm",
+          "call_index": 0,
+          "ttft_sec": 0.0371025251224637,
+          "total_sec": 0.4278143660631031,
+          "prompt_tokens": 2376,
+          "completion_tokens": 16
+        },
+        {
+          "label": "warm",
+          "call_index": 1,
+          "ttft_sec": 0.05903572007082403,
+          "total_sec": 0.4130380949936807,
+          "prompt_tokens": 2376,
+          "completion_tokens": 16
+        },
+        {
+          "label": "warm",
+          "call_index": 2,
+          "ttft_sec": 0.06687906919978559,
+          "total_sec": 0.43497601919807494,
+          "prompt_tokens": 2376,
+          "completion_tokens": 16
+        },
+        {
+          "label": "warm",
+          "call_index": 3,
+          "ttft_sec": 0.05941991810686886,
+          "total_sec": 0.4281758461147547,
+          "prompt_tokens": 2376,
+          "completion_tokens": 16
+        },
+        {
+          "label": "warm",
+          "call_index": 4,
+          "ttft_sec": 0.0684179849922657,
+          "total_sec": 0.4371225228533149,
+          "prompt_tokens": 2376,
+          "completion_tokens": 16
+        },
+        {
+          "label": "warm",
+          "call_index": 5,
+          "ttft_sec": 0.06802082620561123,
+          "total_sec": 0.4363243749830872,
+          "prompt_tokens": 2376,
+          "completion_tokens": 16
+        },
+        {
+          "label": "warm",
+          "call_index": 6,
+          "ttft_sec": 0.06775316712446511,
+          "total_sec": 0.43726311321370304,
+          "prompt_tokens": 2376,
+          "completion_tokens": 16
+        },
+        {
+          "label": "warm",
+          "call_index": 7,
+          "ttft_sec": 0.06929773301817477,
+          "total_sec": 0.4325652241241187,
+          "prompt_tokens": 2376,
+          "completion_tokens": 16
+        },
+        {
+          "label": "cold",
+          "call_index": 0,
+          "ttft_sec": 0.36183044593781233,
+          "total_sec": 0.7327924780547619,
+          "prompt_tokens": 2385,
+          "completion_tokens": 16
+        },
+        {
+          "label": "cold",
+          "call_index": 1,
+          "ttft_sec": 0.3618403959553689,
+          "total_sec": 0.734544093022123,
+          "prompt_tokens": 2384,
+          "completion_tokens": 16
+        },
+        {
+          "label": "cold",
+          "call_index": 2,
+          "ttft_sec": 0.3461357259657234,
+          "total_sec": 0.7315194411203265,
+          "prompt_tokens": 2384,
+          "completion_tokens": 16
+        },
+        {
+          "label": "cold",
+          "call_index": 3,
+          "ttft_sec": 0.36303778318688273,
+          "total_sec": 0.7202630899846554,
+          "prompt_tokens": 2385,
+          "completion_tokens": 16
+        },
+        {
+          "label": "cold",
+          "call_index": 4,
+          "ttft_sec": 0.3702970340382308,
+          "total_sec": 0.7444315680768341,
+          "prompt_tokens": 2384,
+          "completion_tokens": 16
+        },
+        {
+          "label": "cold",
+          "call_index": 5,
+          "ttft_sec": 0.36401157011277974,
+          "total_sec": 0.7381297540850937,
+          "prompt_tokens": 2385,
+          "completion_tokens": 16
+        },
+        {
+          "label": "cold",
+          "call_index": 6,
+          "ttft_sec": 0.36150906584225595,
+          "total_sec": 0.7304816329851747,
+          "prompt_tokens": 2384,
+          "completion_tokens": 16
+        },
+        {
+          "label": "cold",
+          "call_index": 7,
+          "ttft_sec": 0.36153276707045734,
+          "total_sec": 0.730373783968389,
+          "prompt_tokens": 2384,
+          "completion_tokens": 16
+        }
+      ],
+      "warm_first_ttft": 0.0371025251224637,
+      "warm_second_ttft": 0.06554634553114218,
+      "cold_first_ttft": 0.36183044593781233,
+      "cold_second_ttft": 0.3611949060245284,
+      "speedup_ratio": 5.510526988158609,
+      "cache_hit_detected": false
+    },
+    {
+      "experiment_id": "E7",
+      "description": "Concurrent cold-vs-warm, sessions=4, prefix=2048",
+      "params": {
+        "num_sessions": 4,
+        "prefix_tokens": 2048,
+        "gen_tokens": 32,
+        "type": "concurrent",
+        "warm_wall_sec": 0.9093,
+        "cold_wall_sec": 2.1243,
+        "wall_speedup": 2.3361
+      },
+      "calls": [
+        {
+          "label": "warm",
+          "call_index": 0,
+          "ttft_sec": 0.07426669099368155,
+          "total_sec": 0.9081530200783163,
+          "prompt_tokens": 2227,
+          "completion_tokens": 32
+        },
+        {
+          "label": "warm",
+          "call_index": 1,
+          "ttft_sec": 0.10771550517529249,
+          "total_sec": 0.9080754599999636,
+          "prompt_tokens": 2227,
+          "completion_tokens": 32
+        },
+        {
+          "label": "warm",
+          "call_index": 2,
+          "ttft_sec": 0.1073768159840256,
+          "total_sec": 0.9075706719886512,
+          "prompt_tokens": 2227,
+          "completion_tokens": 32
+        },
+        {
+          "label": "warm",
+          "call_index": 3,
+          "ttft_sec": 0.10600150912068784,
+          "total_sec": 0.9069743319414556,
+          "prompt_tokens": 2227,
+          "completion_tokens": 32
+        },
+        {
+          "label": "cold",
+          "call_index": 0,
+          "ttft_sec": 0.36865124804899096,
+          "total_sec": 2.1238411138765514,
+          "prompt_tokens": 2235,
+          "completion_tokens": 32
+        },
+        {
+          "label": "cold",
+          "call_index": 1,
+          "ttft_sec": 1.3015286740846932,
+          "total_sec": 2.123161585070193,
+          "prompt_tokens": 2235,
+          "completion_tokens": 32
+        },
+        {
+          "label": "cold",
+          "call_index": 2,
+          "ttft_sec": 1.299998918082565,
+          "total_sec": 2.1224970871116966,
+          "prompt_tokens": 2236,
+          "completion_tokens": 32
+        },
+        {
+          "label": "cold",
+          "call_index": 3,
+          "ttft_sec": 1.2997713389340788,
+          "total_sec": 2.1215902590192854,
+          "prompt_tokens": 2235,
+          "completion_tokens": 32
+        }
+      ],
+      "warm_first_ttft": 0.07426669099368155,
+      "warm_second_ttft": 0.09884013031842187,
+      "cold_first_ttft": 0.36865124804899096,
+      "cold_second_ttft": 1.067487544787582,
+      "speedup_ratio": 10.800143032476589,
+      "cache_hit_detected": true
+    },
+    {
+      "experiment_id": "E8",
+      "description": "Concurrent cold-vs-warm, sessions=8, prefix=2048",
+      "params": {
+        "num_sessions": 8,
+        "prefix_tokens": 2048,
+        "gen_tokens": 32,
+        "type": "concurrent",
+        "warm_wall_sec": 0.9615,
+        "cold_wall_sec": 3.4695,
+        "wall_speedup": 3.6085
+      },
+      "calls": [
+        {
+          "label": "warm",
+          "call_index": 0,
+          "ttft_sec": 0.11727516003884375,
+          "total_sec": 0.9612842139322311,
+          "prompt_tokens": 2227,
+          "completion_tokens": 32
+        },
+        {
+          "label": "warm",
+          "call_index": 1,
+          "ttft_sec": 0.1154412750620395,
+          "total_sec": 0.9602971659041941,
+          "prompt_tokens": 2227,
+          "completion_tokens": 32
+        },
+        {
+          "label": "warm",
+          "call_index": 2,
+          "ttft_sec": 0.11543101514689624,
+          "total_sec": 0.9597140680998564,
+          "prompt_tokens": 2227,
+          "completion_tokens": 32
+        },
+        {
+          "label": "warm",
+          "call_index": 3,
+          "ttft_sec": 0.08442391501739621,
+          "total_sec": 0.9588954700157046,
+          "prompt_tokens": 2227,
+          "completion_tokens": 32
+        },
+        {
+          "label": "warm",
+          "call_index": 4,
+          "ttft_sec": 0.11300874105654657,
+          "total_sec": 0.957859612070024,
+          "prompt_tokens": 2227,
+          "completion_tokens": 32
+        },
+        {
+          "label": "warm",
+          "call_index": 5,
+          "ttft_sec": 0.11137477587908506,
+          "total_sec": 0.9568252959288657,
+          "prompt_tokens": 2227,
+          "completion_tokens": 32
+        },
+        {
+          "label": "warm",
+          "call_index": 6,
+          "ttft_sec": 0.11171566415578127,
+          "total_sec": 0.956277156015858,
+          "prompt_tokens": 2227,
+          "completion_tokens": 32
+        },
+        {
+          "label": "warm",
+          "call_index": 7,
+          "ttft_sec": 0.1095597599633038,
+          "total_sec": 0.9532078038901091,
+          "prompt_tokens": 2227,
+          "completion_tokens": 32
+        },
+        {
+          "label": "cold",
+          "call_index": 0,
+          "ttft_sec": 1.3999335139524192,
+          "total_sec": 3.468946017092094,
+          "prompt_tokens": 2236,
+          "completion_tokens": 32
+        },
+        {
+          "label": "cold",
+          "call_index": 1,
+          "ttft_sec": 1.399460535030812,
+          "total_sec": 3.468279999215156,
+          "prompt_tokens": 2236,
+          "completion_tokens": 32
+        },
+        {
+          "label": "cold",
+          "call_index": 2,
+          "ttft_sec": 2.30091455206275,
+          "total_sec": 3.4658105550333858,
+          "prompt_tokens": 2235,
+          "completion_tokens": 32
+        },
+        {
+          "label": "cold",
+          "call_index": 3,
+          "ttft_sec": 0.3958678680937737,
+          "total_sec": 3.4669794111978263,
+          "prompt_tokens": 2235,
+          "completion_tokens": 32
+        },
+        {
+          "label": "cold",
+          "call_index": 4,
+          "ttft_sec": 2.2999915129039437,
+          "total_sec": 3.4662006238941103,
+          "prompt_tokens": 2236,
+          "completion_tokens": 32
+        },
+        {
+          "label": "cold",
+          "call_index": 5,
+          "ttft_sec": 2.299665794009343,
+          "total_sec": 3.465131646953523,
+          "prompt_tokens": 2236,
+          "completion_tokens": 32
+        },
+        {
+          "label": "cold",
+          "call_index": 6,
+          "ttft_sec": 1.3962898931931704,
+          "total_sec": 3.4644955080002546,
+          "prompt_tokens": 2235,
+          "completion_tokens": 32
+        },
+        {
+          "label": "cold",
+          "call_index": 7,
+          "ttft_sec": 2.567867858801037,
+          "total_sec": 3.4641737188212574,
+          "prompt_tokens": 2236,
+          "completion_tokens": 32
+        }
+      ],
+      "warm_first_ttft": 0.11727516003884375,
+      "warm_second_ttft": 0.10977878828998655,
+      "cold_first_ttft": 1.3999335139524192,
+      "cold_second_ttft": 1.757498941005906,
+      "speedup_ratio": 16.009458369711446,
+      "cache_hit_detected": true
+    }
+  ]
+}

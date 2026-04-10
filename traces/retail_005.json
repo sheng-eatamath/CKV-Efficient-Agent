@@ -1,0 +1,181 @@
+{
+  "trace_id": "retail_005",
+  "domain": "retail",
+  "turns": [
+    {
+      "role": "system",
+      "token_count": 1248
+    },
+    {
+      "role": "user",
+      "token_count": 342
+    },
+    {
+      "role": "assistant",
+      "token_count": 256,
+      "tool_name": "get_order_details",
+      "tool_latency_sec": 0.65
+    },
+    {
+      "role": "tool",
+      "token_count": 541,
+      "tool_name": "get_order_details",
+      "tool_latency_sec": 0,
+      "tool_success": true,
+      "is_retry": false
+    },
+    {
+      "role": "assistant",
+      "token_count": 155,
+      "tool_name": "get_order_details",
+      "tool_latency_sec": 1.51
+    },
+    {
+      "role": "tool",
+      "token_count": 761,
+      "tool_name": "get_order_details",
+      "tool_latency_sec": 0,
+      "tool_success": true,
+      "is_retry": false
+    },
+    {
+      "role": "assistant",
+      "token_count": 153
+    },
+    {
+      "role": "user",
+      "token_count": 77
+    },
+    {
+      "role": "assistant",
+      "token_count": 113,
+      "tool_name": "get_user_info",
+      "tool_latency_sec": 0.61
+    },
+    {
+      "role": "tool",
+      "token_count": 532,
+      "tool_name": "get_user_info",
+      "tool_latency_sec": 0,
+      "tool_success": true,
+      "is_retry": false
+    },
+    {
+      "role": "assistant",
+      "token_count": 168,
+      "tool_name": "get_order_details",
+      "tool_latency_sec": 1.16
+    },
+    {
+      "role": "tool",
+      "token_count": 663,
+      "tool_name": "get_order_details",
+      "tool_latency_sec": 0,
+      "tool_success": true,
+      "is_retry": false
+    },
+    {
+      "role": "assistant",
+      "token_count": 216
+    },
+    {
+      "role": "user",
+      "token_count": 53
+    },
+    {
+      "role": "assistant",
+      "token_count": 298,
+      "tool_name": "search_product",
+      "tool_latency_sec": 1.17
+    },
+    {
+      "role": "tool",
+      "token_count": 597,
+      "tool_name": "search_product",
+      "tool_latency_sec": 0,
+      "tool_success": true,
+      "is_retry": false
+    },
+    {
+      "role": "assistant",
+      "token_count": 271,
+      "tool_name": "get_order_details",
+      "tool_latency_sec": 0.75
+    },
+    {
+      "role": "tool",
+      "token_count": 102,
+      "tool_name": "get_order_details",
+      "tool_latency_sec": 0,
+      "tool_success": true,
+      "is_retry": false
+    },
+    {
+      "role": "assistant",
+      "token_count": 117
+    },
+    {
+      "role": "user",
+      "token_count": 166
+    },
+    {
+      "role": "assistant",
+      "token_count": 123,
+      "tool_name": "get_user_info",
+      "tool_latency_sec": 0.76
+    },
+    {
+      "role": "tool",
+      "token_count": 598,
+      "tool_name": "get_user_info",
+      "tool_latency_sec": 0,
+      "tool_success": true,
+      "is_retry": false
+    },
+    {
+      "role": "assistant",
+      "token_count": 125,
+      "tool_name": "get_order_details",
+      "tool_latency_sec": 1.37
+    },
+    {
+      "role": "tool",
+      "token_count": 655,
+      "tool_name": "get_order_details",
+      "tool_latency_sec": 0,
+      "tool_success": true,
+      "is_retry": false
+    },
+    {
+      "role": "assistant",
+      "token_count": 130,
+      "tool_name": "get_user_info",
+      "tool_latency_sec": 0.63
+    },
+    {
+      "role": "tool",
+      "token_count": 643,
+      "tool_name": "get_user_info",
+      "tool_latency_sec": 0,
+      "tool_success": true,
+      "is_retry": false
+    },
+    {
+      "role": "assistant",
+      "token_count": 295,
+      "tool_name": "search_product",
+      "tool_latency_sec": 0.95
+    },
+    {
+      "role": "tool",
+      "token_count": 169,
+      "tool_name": "search_product",
+      "tool_latency_sec": 0,
+      "tool_success": true,
+      "is_retry": false
+    }
+  ],
+  "total_tokens": 9567,
+  "num_tool_calls": 10,
+  "num_retries": 0
+}

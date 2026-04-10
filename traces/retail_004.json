@@ -1,0 +1,153 @@
+{
+  "trace_id": "retail_004",
+  "domain": "retail",
+  "turns": [
+    {
+      "role": "system",
+      "token_count": 1780
+    },
+    {
+      "role": "user",
+      "token_count": 182
+    },
+    {
+      "role": "assistant",
+      "token_count": 188
+    },
+    {
+      "role": "user",
+      "token_count": 185
+    },
+    {
+      "role": "assistant",
+      "token_count": 285,
+      "tool_name": "update_order",
+      "tool_latency_sec": 2.47
+    },
+    {
+      "role": "tool",
+      "token_count": 214,
+      "tool_name": "update_order",
+      "tool_latency_sec": 0,
+      "tool_success": true,
+      "is_retry": false
+    },
+    {
+      "role": "assistant",
+      "token_count": 274
+    },
+    {
+      "role": "user",
+      "token_count": 128
+    },
+    {
+      "role": "assistant",
+      "token_count": 111,
+      "tool_name": "get_user_info",
+      "tool_latency_sec": 0.96
+    },
+    {
+      "role": "tool",
+      "token_count": 187,
+      "tool_name": "get_user_info",
+      "tool_latency_sec": 0,
+      "tool_success": true,
+      "is_retry": false
+    },
+    {
+      "role": "assistant",
+      "token_count": 258,
+      "tool_name": "get_user_info",
+      "tool_latency_sec": 0.84
+    },
+    {
+      "role": "tool",
+      "token_count": 231,
+      "tool_name": "get_user_info",
+      "tool_latency_sec": 0,
+      "tool_success": true,
+      "is_retry": false
+    },
+    {
+      "role": "assistant",
+      "token_count": 292,
+      "tool_name": "update_order",
+      "tool_latency_sec": 2.58
+    },
+    {
+      "role": "tool",
+      "token_count": 721,
+      "tool_name": "update_order",
+      "tool_latency_sec": 0,
+      "tool_success": true,
+      "is_retry": false
+    },
+    {
+      "role": "assistant",
+      "token_count": 104
+    },
+    {
+      "role": "user",
+      "token_count": 101
+    },
+    {
+      "role": "assistant",
+      "token_count": 232,
+      "tool_name": "update_order",
+      "tool_latency_sec": 2.31
+    },
+    {
+      "role": "tool",
+      "token_count": 629,
+      "tool_name": "update_order",
+      "tool_latency_sec": 0,
+      "tool_success": true,
+      "is_retry": false
+    },
+    {
+      "role": "assistant",
+      "token_count": 113,
+      "tool_name": "update_order",
+      "tool_latency_sec": 1.06
+    },
+    {
+      "role": "tool",
+      "token_count": 667,
+      "tool_name": "update_order",
+      "tool_latency_sec": 0,
+      "tool_success": true,
+      "is_retry": false
+    },
+    {
+      "role": "assistant",
+      "token_count": 106,
+      "tool_name": "get_order_details",
+      "tool_latency_sec": 0.84
+    },
+    {
+      "role": "tool",
+      "token_count": 132,
+      "tool_name": "get_order_details",
+      "tool_latency_sec": 0,
+      "tool_success": true,
+      "is_retry": false
+    },
+    {
+      "role": "assistant",
+      "token_count": 68,
+      "tool_name": "update_order",
+      "tool_latency_sec": 3.01
+    },
+    {
+      "role": "tool",
+      "token_count": 319,
+      "tool_name": "update_order",
+      "tool_latency_sec": 0,
+      "tool_success": true,
+      "is_retry": false
+    }
+  ],
+  "total_tokens": 7507,
+  "num_tool_calls": 8,
+  "num_retries": 0
+}

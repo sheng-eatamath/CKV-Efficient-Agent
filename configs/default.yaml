@@ -1,0 +1,43 @@
+model:
+  name: "meta-llama/Meta-Llama-3-8B-Instruct"
+  gpu_memory_utilization: 0.90
+  max_model_len: 8192
+  dtype: "float16"
+  seed: 42
+
+vllm_server:
+  host: "localhost"
+  port: 8000
+
+profiler:
+  poll_interval_sec: 0.5
+  vllm_metrics_url: "http://localhost:8000/metrics"
+  output_dir: "logs"
+
+bench_a_retry:
+  prefix_tokens: [1024, 2048, 4096]
+  num_retries: [1, 2, 4]
+  p_fail: [0.5, 1.0]
+  gen_tokens: 256
+
+bench_b_concurrency:
+  num_sessions: [4, 8, 16]
+  stalled_fraction: [0.25, 0.5, 0.75]
+  stall_durations_sec:
+    short: 0.5
+    medium: 2.0
+    long: 8.0
+  prefix_tokens: 4096
+  gen_tokens: 128
+
+bench_c_branch:
+  branch_factor: [2, 4, 8]
+  shared_prefix_tokens: [2048, 4096]
+  suffix_tokens: [128, 512]
+  gen_tokens: 128
+
+bench_d_replay:
+  trace_dir: "traces"
+  domains: ["retail", "airline"]
+  num_traces_per_domain: 30
+  concurrency: [1, 4, 8]

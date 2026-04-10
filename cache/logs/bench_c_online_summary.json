@@ -1,0 +1,441 @@
+{
+  "run_id": "bench_c_online",
+  "num_sessions": 12,
+  "sessions": {
+    "branch_2_2048_128_927c2a": {
+      "generate_calls": 2,
+      "prompt_tokens": 4692,
+      "gen_tokens": 256,
+      "retries": 0,
+      "tool_stall_sec": 0.0,
+      "avg_ttft_sec": 0.7249,
+      "wall_sec": 6.292
+    },
+    "branch_2_2048_512_e345ec": {
+      "generate_calls": 2,
+      "prompt_tokens": 5472,
+      "gen_tokens": 196,
+      "retries": 0,
+      "tool_stall_sec": 0.0,
+      "avg_ttft_sec": 0.0751,
+      "wall_sec": 3.866
+    },
+    "branch_2_4096_128_10fa60": {
+      "generate_calls": 2,
+      "prompt_tokens": 9138,
+      "gen_tokens": 256,
+      "retries": 0,
+      "tool_stall_sec": 0.0,
+      "avg_ttft_sec": 0.049,
+      "wall_sec": 5.045
+    },
+    "branch_2_4096_512_7958ea": {
+      "generate_calls": 2,
+      "prompt_tokens": 9918,
+      "gen_tokens": 221,
+      "retries": 0,
+      "tool_stall_sec": 0.0,
+      "avg_ttft_sec": 0.0882,
+      "wall_sec": 4.462
+    },
+    "branch_4_2048_128_18c62c": {
+      "generate_calls": 4,
+      "prompt_tokens": 9384,
+      "gen_tokens": 512,
+      "retries": 0,
+      "tool_stall_sec": 0.0,
+      "avg_ttft_sec": 0.0435,
+      "wall_sec": 9.868
+    },
+    "branch_4_2048_512_b4704a": {
+      "generate_calls": 4,
+      "prompt_tokens": 10944,
+      "gen_tokens": 452,
+      "retries": 0,
+      "tool_stall_sec": 0.0,
+      "avg_ttft_sec": 0.0598,
+      "wall_sec": 8.815
+    },
+    "branch_4_4096_128_051a02": {
+      "generate_calls": 4,
+      "prompt_tokens": 18276,
+      "gen_tokens": 512,
+      "retries": 0,
+      "tool_stall_sec": 0.0,
+      "avg_ttft_sec": 0.0463,
+      "wall_sec": 10.077
+    },
+    "branch_4_4096_512_c9de2b": {
+      "generate_calls": 4,
+      "prompt_tokens": 19836,
+      "gen_tokens": 466,
+      "retries": 0,
+      "tool_stall_sec": 0.0,
+      "avg_ttft_sec": 0.0666,
+      "wall_sec": 9.285
+    },
+    "branch_8_2048_128_32f2e2": {
+      "generate_calls": 8,
+      "prompt_tokens": 18768,
+      "gen_tokens": 1024,
+      "retries": 0,
+      "tool_stall_sec": 0.0,
+      "avg_ttft_sec": 0.0439,
+      "wall_sec": 19.728
+    },
+    "branch_8_2048_512_7852e2": {
+      "generate_calls": 8,
+      "prompt_tokens": 21888,
+      "gen_tokens": 923,
+      "retries": 0,
+      "tool_stall_sec": 0.0,
+      "avg_ttft_sec": 0.0616,
+      "wall_sec": 18.007
+    },
+    "branch_8_4096_128_d7e31a": {
+      "generate_calls": 8,
+      "prompt_tokens": 36552,
+      "gen_tokens": 1024,
+      "retries": 0,
+      "tool_stall_sec": 0.0,
+      "avg_ttft_sec": 0.0465,
+      "wall_sec": 20.195
+    },
+    "branch_8_4096_512_908e9e": {
+      "generate_calls": 8,
+      "prompt_tokens": 39672,
+      "gen_tokens": 948,
+      "retries": 0,
+      "tool_stall_sec": 0.0,
+      "avg_ttft_sec": 0.0665,
+      "wall_sec": 18.911
+    }
+  },
+  "kv_cache": {
+    "gpu_usage_pct_mean": 0.0169,
+    "gpu_usage_pct_max": 0.0236,
+    "total_preemptions": 0,
+    "num_snapshots": 263
+  },
+  "derived_metrics": {
+    "retry_prefill_savings": [],
+    "stall_periods": [],
+    "branch_prefix_reuse": [
+      {
+        "session_id": "branch_2_2048_128_927c2a",
+        "branch_id": 1,
+        "first_branch_ttft": 1.4014,
+        "branch_ttft": 0.0485,
+        "reuse_hit": 1
+      },
+      {
+        "session_id": "branch_2_2048_512_e345ec",
+        "branch_id": 1,
+        "first_branch_ttft": 0.0796,
+        "branch_ttft": 0.0705,
+        "reuse_hit": 0
+      },
+      {
+        "session_id": "branch_2_4096_128_10fa60",
+        "branch_id": 1,
+        "first_branch_ttft": 0.0494,
+        "branch_ttft": 0.0486,
+        "reuse_hit": 0
+      },
+      {
+        "session_id": "branch_2_4096_512_7958ea",
+        "branch_id": 1,
+        "first_branch_ttft": 0.0896,
+        "branch_ttft": 0.0868,
+        "reuse_hit": 0
+      },
+      {
+        "session_id": "branch_4_2048_128_18c62c",
+        "branch_id": 1,
+        "first_branch_ttft": 0.0407,
+        "branch_ttft": 0.0417,
+        "reuse_hit": 0
+      },
+      {
+        "session_id": "branch_4_2048_128_18c62c",
+        "branch_id": 2,
+        "first_branch_ttft": 0.0407,
+        "branch_ttft": 0.0458,
+        "reuse_hit": 0
+      },
+      {
+        "session_id": "branch_4_2048_128_18c62c",
+        "branch_id": 3,
+        "first_branch_ttft": 0.0407,
+        "branch_ttft": 0.046,
+        "reuse_hit": 0
+      },
+      {
+        "session_id": "branch_4_2048_512_b4704a",
+        "branch_id": 1,
+        "first_branch_ttft": 0.0407,
+        "branch_ttft": 0.0401,
+        "reuse_hit": 0
+      },
+      {
+        "session_id": "branch_4_2048_512_b4704a",
+        "branch_id": 2,
+        "first_branch_ttft": 0.0407,
+        "branch_ttft": 0.0761,
+        "reuse_hit": 0
+      },
+      {
+        "session_id": "branch_4_2048_512_b4704a",
+        "branch_id": 3,
+        "first_branch_ttft": 0.0407,
+        "branch_ttft": 0.0822,
+        "reuse_hit": 0
+      },
+      {
+        "session_id": "branch_4_4096_128_051a02",
+        "branch_id": 1,
+        "first_branch_ttft": 0.0441,
+        "branch_ttft": 0.0435,
+        "reuse_hit": 0
+      },
+      {
+        "session_id": "branch_4_4096_128_051a02",
+        "branch_id": 2,
+        "first_branch_ttft": 0.0441,
+        "branch_ttft": 0.0493,
+        "reuse_hit": 0
+      },
+      {
+        "session_id": "branch_4_4096_128_051a02",
+        "branch_id": 3,
+        "first_branch_ttft": 0.0441,
+        "branch_ttft": 0.0485,
+        "reuse_hit": 0
+      },
+      {
+        "session_id": "branch_4_4096_512_c9de2b",
+        "branch_id": 1,
+        "first_branch_ttft": 0.0444,
+        "branch_ttft": 0.0437,
+        "reuse_hit": 0
+      },
+      {
+        "session_id": "branch_4_4096_512_c9de2b",
+        "branch_id": 2,
+        "first_branch_ttft": 0.0444,
+        "branch_ttft": 0.0869,
+        "reuse_hit": 0
+      },
+      {
+        "session_id": "branch_4_4096_512_c9de2b",
+        "branch_id": 3,
+        "first_branch_ttft": 0.0444,
+        "branch_ttft": 0.0913,
+        "reuse_hit": 0
+      },
+      {
+        "session_id": "branch_8_2048_128_32f2e2",
+        "branch_id": 1,
+        "first_branch_ttft": 0.0395,
+        "branch_ttft": 0.0439,
+        "reuse_hit": 0
+      },
+      {
+        "session_id": "branch_8_2048_128_32f2e2",
+        "branch_id": 2,
+        "first_branch_ttft": 0.0395,
+        "branch_ttft": 0.0412,
+        "reuse_hit": 0
+      },
+      {
+        "session_id": "branch_8_2048_128_32f2e2",
+        "branch_id": 3,
+        "first_branch_ttft": 0.0395,
+        "branch_ttft": 0.0413,
+        "reuse_hit": 0
+      },
+      {
+        "session_id": "branch_8_2048_128_32f2e2",
+        "branch_id": 4,
+        "first_branch_ttft": 0.0395,
+        "branch_ttft": 0.0465,
+        "reuse_hit": 0
+      },
+      {
+        "session_id": "branch_8_2048_128_32f2e2",
+        "branch_id": 5,
+        "first_branch_ttft": 0.0395,
+        "branch_ttft": 0.0463,
+        "reuse_hit": 0
+      },
+      {
+        "session_id": "branch_8_2048_128_32f2e2",
+        "branch_id": 6,
+        "first_branch_ttft": 0.0395,
+        "branch_ttft": 0.0464,
+        "reuse_hit": 0
+      },
+      {
+        "session_id": "branch_8_2048_128_32f2e2",
+        "branch_id": 7,
+        "first_branch_ttft": 0.0395,
+        "branch_ttft": 0.0461,
+        "reuse_hit": 0
+      },
+      {
+        "session_id": "branch_8_2048_512_7852e2",
+        "branch_id": 1,
+        "first_branch_ttft": 0.0407,
+        "branch_ttft": 0.0404,
+        "reuse_hit": 0
+      },
+      {
+        "session_id": "branch_8_2048_512_7852e2",
+        "branch_id": 2,
+        "first_branch_ttft": 0.0407,
+        "branch_ttft": 0.04,
+        "reuse_hit": 0
+      },
+      {
+        "session_id": "branch_8_2048_512_7852e2",
+        "branch_id": 3,
+        "first_branch_ttft": 0.0407,
+        "branch_ttft": 0.04,
+        "reuse_hit": 0
+      },
+      {
+        "session_id": "branch_8_2048_512_7852e2",
+        "branch_id": 4,
+        "first_branch_ttft": 0.0407,
+        "branch_ttft": 0.0821,
+        "reuse_hit": 0
+      },
+      {
+        "session_id": "branch_8_2048_512_7852e2",
+        "branch_id": 5,
+        "first_branch_ttft": 0.0407,
+        "branch_ttft": 0.0824,
+        "reuse_hit": 0
+      },
+      {
+        "session_id": "branch_8_2048_512_7852e2",
+        "branch_id": 6,
+        "first_branch_ttft": 0.0407,
+        "branch_ttft": 0.0841,
+        "reuse_hit": 0
+      },
+      {
+        "session_id": "branch_8_2048_512_7852e2",
+        "branch_id": 7,
+        "first_branch_ttft": 0.0407,
+        "branch_ttft": 0.083,
+        "reuse_hit": 0
+      },
+      {
+        "session_id": "branch_8_4096_128_d7e31a",
+        "branch_id": 1,
+        "first_branch_ttft": 0.0443,
+        "branch_ttft": 0.0442,
+        "reuse_hit": 0
+      },
+      {
+        "session_id": "branch_8_4096_128_d7e31a",
+        "branch_id": 2,
+        "first_branch_ttft": 0.0443,
+        "branch_ttft": 0.0437,
+        "reuse_hit": 0
+      },
+      {
+        "session_id": "branch_8_4096_128_d7e31a",
+        "branch_id": 3,
+        "first_branch_ttft": 0.0443,
+        "branch_ttft": 0.0436,
+        "reuse_hit": 0
+      },
+      {
+        "session_id": "branch_8_4096_128_d7e31a",
+        "branch_id": 4,
+        "first_branch_ttft": 0.0443,
+        "branch_ttft": 0.0489,
+        "reuse_hit": 0
+      },
+      {
+        "session_id": "branch_8_4096_128_d7e31a",
+        "branch_id": 5,
+        "first_branch_ttft": 0.0443,
+        "branch_ttft": 0.0496,
+        "reuse_hit": 0
+      },
+      {
+        "session_id": "branch_8_4096_128_d7e31a",
+        "branch_id": 6,
+        "first_branch_ttft": 0.0443,
+        "branch_ttft": 0.0494,
+        "reuse_hit": 0
+      },
+      {
+        "session_id": "branch_8_4096_128_d7e31a",
+        "branch_id": 7,
+        "first_branch_ttft": 0.0443,
+        "branch_ttft": 0.0486,
+        "reuse_hit": 0
+      },
+      {
+        "session_id": "branch_8_4096_512_908e9e",
+        "branch_id": 1,
+        "first_branch_ttft": 0.044,
+        "branch_ttft": 0.0439,
+        "reuse_hit": 0
+      },
+      {
+        "session_id": "branch_8_4096_512_908e9e",
+        "branch_id": 2,
+        "first_branch_ttft": 0.044,
+        "branch_ttft": 0.0449,
+        "reuse_hit": 0
+      },
+      {
+        "session_id": "branch_8_4096_512_908e9e",
+        "branch_id": 3,
+        "first_branch_ttft": 0.044,
+        "branch_ttft": 0.0446,
+        "reuse_hit": 0
+      },
+      {
+        "session_id": "branch_8_4096_512_908e9e",
+        "branch_id": 4,
+        "first_branch_ttft": 0.044,
+        "branch_ttft": 0.0879,
+        "reuse_hit": 0
+      },
+      {
+        "session_id": "branch_8_4096_512_908e9e",
+        "branch_id": 5,
+        "first_branch_ttft": 0.044,
+        "branch_ttft": 0.0876,
+        "reuse_hit": 0
+      },
+      {
+        "session_id": "branch_8_4096_512_908e9e",
+        "branch_id": 6,
+        "first_branch_ttft": 0.044,
+        "branch_ttft": 0.0917,
+        "reuse_hit": 0
+      },
+      {
+        "session_id": "branch_8_4096_512_908e9e",
+        "branch_id": 7,
+        "first_branch_ttft": 0.044,
+        "branch_ttft": 0.0877,
+        "reuse_hit": 0
+      }
+    ],
+    "branch_reuse_rate": 0.0227
+  },
+  "global": {
+    "total_retries": 0,
+    "ttft_p50": 0.0463,
+    "ttft_p95": 0.0896,
+    "ttft_mean": 0.0801
+  }
+}

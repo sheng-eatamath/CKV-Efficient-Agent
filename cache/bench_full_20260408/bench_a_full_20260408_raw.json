@@ -1,0 +1,362 @@
+[
+  {
+    "session_id": "retry_1024_1_0.5_bed04f",
+    "prefix_tokens": 1024,
+    "num_retries": 1,
+    "p_fail": 0.5,
+    "ttfts": [
+      0.955448237946257
+    ],
+    "retries": 0,
+    "wall_sec": 1.6384689807891846,
+    "extra": {
+      "prefix_tokens": 1024,
+      "p_fail": 0.5,
+      "initial_ttft": 0.955448237946257,
+      "retry_ttfts": []
+    }
+  },
+  {
+    "session_id": "retry_1024_1_1.0_5a47a1",
+    "prefix_tokens": 1024,
+    "num_retries": 1,
+    "p_fail": 1.0,
+    "ttfts": [
+      0.02857587905600667,
+      0.02833091584034264
+    ],
+    "retries": 1,
+    "wall_sec": 1.4231352806091309,
+    "extra": {
+      "prefix_tokens": 1024,
+      "p_fail": 1.0,
+      "initial_ttft": 0.02857587905600667,
+      "retry_ttfts": [
+        0.02833091584034264
+      ]
+    }
+  },
+  {
+    "session_id": "retry_1024_2_0.5_f8fdb0",
+    "prefix_tokens": 1024,
+    "num_retries": 2,
+    "p_fail": 0.5,
+    "ttfts": [
+      0.028175453888252378
+    ],
+    "retries": 0,
+    "wall_sec": 0.7110636234283447,
+    "extra": {
+      "prefix_tokens": 1024,
+      "p_fail": 0.5,
+      "initial_ttft": 0.028175453888252378,
+      "retry_ttfts": []
+    }
+  },
+  {
+    "session_id": "retry_1024_2_1.0_9cd832",
+    "prefix_tokens": 1024,
+    "num_retries": 2,
+    "p_fail": 1.0,
+    "ttfts": [
+      0.028234044089913368,
+      0.02845091698691249,
+      0.028220653999596834
+    ],
+    "retries": 2,
+    "wall_sec": 2.1366641521453857,
+    "extra": {
+      "prefix_tokens": 1024,
+      "p_fail": 1.0,
+      "initial_ttft": 0.028234044089913368,
+      "retry_ttfts": [
+        0.02845091698691249,
+        0.028220653999596834
+      ]
+    }
+  },
+  {
+    "session_id": "retry_1024_4_0.5_d5edda",
+    "prefix_tokens": 1024,
+    "num_retries": 4,
+    "p_fail": 0.5,
+    "ttfts": [
+      0.028459657914936543
+    ],
+    "retries": 0,
+    "wall_sec": 0.7110500335693359,
+    "extra": {
+      "prefix_tokens": 1024,
+      "p_fail": 0.5,
+      "initial_ttft": 0.028459657914936543,
+      "retry_ttfts": []
+    }
+  },
+  {
+    "session_id": "retry_1024_4_1.0_1ee605",
+    "prefix_tokens": 1024,
+    "num_retries": 4,
+    "p_fail": 1.0,
+    "ttfts": [
+      0.028038372052833438,
+      0.02801359212026,
+      0.02788976998999715,
+      0.027973420917987823,
+      0.02800035197287798
+    ],
+    "retries": 4,
+    "wall_sec": 3.5555999279022217,
+    "extra": {
+      "prefix_tokens": 1024,
+      "p_fail": 1.0,
+      "initial_ttft": 0.028038372052833438,
+      "retry_ttfts": [
+        0.02801359212026,
+        0.02788976998999715,
+        0.027973420917987823,
+        0.02800035197287798
+      ]
+    }
+  },
+  {
+    "session_id": "retry_2048_1_0.5_d317da",
+    "prefix_tokens": 2048,
+    "num_retries": 1,
+    "p_fail": 0.5,
+    "ttfts": [
+      0.030781557084992528
+    ],
+    "retries": 0,
+    "wall_sec": 0.7198143005371094,
+    "extra": {
+      "prefix_tokens": 2048,
+      "p_fail": 0.5,
+      "initial_ttft": 0.030781557084992528,
+      "retry_ttfts": []
+    }
+  },
+  {
+    "session_id": "retry_2048_1_1.0_2238aa",
+    "prefix_tokens": 2048,
+    "num_retries": 1,
+    "p_fail": 1.0,
+    "ttfts": [
+      0.030678655952215195,
+      0.030586255015805364
+    ],
+    "retries": 1,
+    "wall_sec": 1.4420809745788574,
+    "extra": {
+      "prefix_tokens": 2048,
+      "p_fail": 1.0,
+      "initial_ttft": 0.030678655952215195,
+      "retry_ttfts": [
+        0.030586255015805364
+      ]
+    }
+  },
+  {
+    "session_id": "retry_2048_2_0.5_8ac37d",
+    "prefix_tokens": 2048,
+    "num_retries": 2,
+    "p_fail": 0.5,
+    "ttfts": [
+      0.0313764251768589
+    ],
+    "retries": 0,
+    "wall_sec": 0.7206151485443115,
+    "extra": {
+      "prefix_tokens": 2048,
+      "p_fail": 0.5,
+      "initial_ttft": 0.0313764251768589,
+      "retry_ttfts": []
+    }
+  },
+  {
+    "session_id": "retry_2048_2_1.0_6bbe22",
+    "prefix_tokens": 2048,
+    "num_retries": 2,
+    "p_fail": 1.0,
+    "ttfts": [
+      0.031405285000801086,
+      0.03052528388798237,
+      0.030903368955478072
+    ],
+    "retries": 2,
+    "wall_sec": 2.1612050533294678,
+    "extra": {
+      "prefix_tokens": 2048,
+      "p_fail": 1.0,
+      "initial_ttft": 0.031405285000801086,
+      "retry_ttfts": [
+        0.03052528388798237,
+        0.030903368955478072
+      ]
+    }
+  },
+  {
+    "session_id": "retry_2048_4_0.5_56daae",
+    "prefix_tokens": 2048,
+    "num_retries": 4,
+    "p_fail": 0.5,
+    "ttfts": [
+      0.030867288121953607
+    ],
+    "retries": 0,
+    "wall_sec": 0.7210657596588135,
+    "extra": {
+      "prefix_tokens": 2048,
+      "p_fail": 0.5,
+      "initial_ttft": 0.030867288121953607,
+      "retry_ttfts": []
+    }
+  },
+  {
+    "session_id": "retry_2048_4_1.0_cee31e",
+    "prefix_tokens": 2048,
+    "num_retries": 4,
+    "p_fail": 1.0,
+    "ttfts": [
+      0.0305354839656502,
+      0.030519013991579413,
+      0.03066283604130149,
+      0.030577555065974593,
+      0.03071617684327066
+    ],
+    "retries": 4,
+    "wall_sec": 3.6039578914642334,
+    "extra": {
+      "prefix_tokens": 2048,
+      "p_fail": 1.0,
+      "initial_ttft": 0.0305354839656502,
+      "retry_ttfts": [
+        0.030519013991579413,
+        0.03066283604130149,
+        0.030577555065974593,
+        0.03071617684327066
+      ]
+    }
+  },
+  {
+    "session_id": "retry_4096_1_0.5_47c1a9",
+    "prefix_tokens": 4096,
+    "num_retries": 1,
+    "p_fail": 0.5,
+    "ttfts": [
+      0.03605611599050462
+    ],
+    "retries": 0,
+    "wall_sec": 0.892164945602417,
+    "extra": {
+      "prefix_tokens": 4096,
+      "p_fail": 0.5,
+      "initial_ttft": 0.03605611599050462,
+      "retry_ttfts": []
+    }
+  },
+  {
+    "session_id": "retry_4096_1_1.0_785418",
+    "prefix_tokens": 4096,
+    "num_retries": 1,
+    "p_fail": 1.0,
+    "ttfts": [
+      0.03643678012304008,
+      0.03550071897916496
+    ],
+    "retries": 1,
+    "wall_sec": 1.7849502563476562,
+    "extra": {
+      "prefix_tokens": 4096,
+      "p_fail": 1.0,
+      "initial_ttft": 0.03643678012304008,
+      "retry_ttfts": [
+        0.03550071897916496
+      ]
+    }
+  },
+  {
+    "session_id": "retry_4096_2_0.5_9c7bf9",
+    "prefix_tokens": 4096,
+    "num_retries": 2,
+    "p_fail": 0.5,
+    "ttfts": [
+      0.035410126904025674,
+      0.03569515096023679
+    ],
+    "retries": 1,
+    "wall_sec": 1.7830467224121094,
+    "extra": {
+      "prefix_tokens": 4096,
+      "p_fail": 0.5,
+      "initial_ttft": 0.035410126904025674,
+      "retry_ttfts": [
+        0.03569515096023679
+      ]
+    }
+  },
+  {
+    "session_id": "retry_4096_2_1.0_d6ef2c",
+    "prefix_tokens": 4096,
+    "num_retries": 2,
+    "p_fail": 1.0,
+    "ttfts": [
+      0.03546745399944484,
+      0.03549532499164343,
+      0.03583910898305476
+    ],
+    "retries": 2,
+    "wall_sec": 2.6785271167755127,
+    "extra": {
+      "prefix_tokens": 4096,
+      "p_fail": 1.0,
+      "initial_ttft": 0.03546745399944484,
+      "retry_ttfts": [
+        0.03549532499164343,
+        0.03583910898305476
+      ]
+    }
+  },
+  {
+    "session_id": "retry_4096_4_0.5_c2cdda",
+    "prefix_tokens": 4096,
+    "num_retries": 4,
+    "p_fail": 0.5,
+    "ttfts": [
+      0.035829170141369104
+    ],
+    "retries": 0,
+    "wall_sec": 0.8930673599243164,
+    "extra": {
+      "prefix_tokens": 4096,
+      "p_fail": 0.5,
+      "initial_ttft": 0.035829170141369104,
+      "retry_ttfts": []
+    }
+  },
+  {
+    "session_id": "retry_4096_4_1.0_8c1dae",
+    "prefix_tokens": 4096,
+    "num_retries": 4,
+    "p_fail": 1.0,
+    "ttfts": [
+      0.035918809939175844,
+      0.035677216947078705,
+      0.035846489015966654,
+      0.0363394059240818,
+      0.03578056814149022
+    ],
+    "retries": 4,
+    "wall_sec": 4.462297439575195,
+    "extra": {
+      "prefix_tokens": 4096,
+      "p_fail": 1.0,
+      "initial_ttft": 0.035918809939175844,
+      "retry_ttfts": [
+        0.035677216947078705,
+        0.035846489015966654,
+        0.0363394059240818,
+        0.03578056814149022
+      ]
+    }
+  }
+]

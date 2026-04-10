@@ -1,0 +1,4 @@
+Generated 10 synthetic traces in traces/
+  Avg tokens/trace: 7093
+  Avg tool calls:   6.7
+  Avg retries:      0.7

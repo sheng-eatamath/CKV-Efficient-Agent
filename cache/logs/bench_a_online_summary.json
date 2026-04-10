@@ -1,0 +1,409 @@
+{
+  "run_id": "bench_a_online",
+  "num_sessions": 13,
+  "sessions": {
+    "retry_1024_1_0.5_f58f6e": {
+      "generate_calls": 1,
+      "prompt_tokens": 1126,
+      "gen_tokens": 32,
+      "retries": 0,
+      "tool_stall_sec": 0.101,
+      "avg_ttft_sec": 1.4385,
+      "wall_sec": 2.126
+    },
+    "retry_1024_1_1.0_c6d1cb": {
+      "generate_calls": 2,
+      "prompt_tokens": 2252,
+      "gen_tokens": 64,
+      "retries": 1,
+      "tool_stall_sec": 0.201,
+      "avg_ttft_sec": 0.0285,
+      "wall_sec": 1.423
+    },
+    "retry_1024_2_0.5_7616d4": {
+      "generate_calls": 3,
+      "prompt_tokens": 3378,
+      "gen_tokens": 96,
+      "retries": 2,
+      "tool_stall_sec": 0.302,
+      "avg_ttft_sec": 0.0283,
+      "wall_sec": 2.134
+    },
+    "retry_1024_2_1.0_265687": {
+      "generate_calls": 3,
+      "prompt_tokens": 3378,
+      "gen_tokens": 96,
+      "retries": 2,
+      "tool_stall_sec": 0.302,
+      "avg_ttft_sec": 0.0283,
+      "wall_sec": 2.135
+    },
+    "retry_1024_4_0.5_87ebaf": {
+      "generate_calls": 1,
+      "prompt_tokens": 1126,
+      "gen_tokens": 32,
+      "retries": 0,
+      "tool_stall_sec": 0.1,
+      "avg_ttft_sec": 0.0281,
+      "wall_sec": 0.711
+    },
+    "retry_1024_4_1.0_1ad5a1": {
+      "generate_calls": 5,
+      "prompt_tokens": 5630,
+      "gen_tokens": 160,
+      "retries": 4,
+      "tool_stall_sec": 0.502,
+      "avg_ttft_sec": 0.0284,
+      "wall_sec": 3.557
+    },
+    "retry_4096_1_0.5_360a53": {
+      "generate_calls": 1,
+      "prompt_tokens": 4454,
+      "gen_tokens": 40,
+      "retries": 0,
+      "tool_stall_sec": 0.101,
+      "avg_ttft_sec": 0.495,
+      "wall_sec": 1.358
+    },
+    "retry_4096_1_1.0_dac1c8": {
+      "generate_calls": 2,
+      "prompt_tokens": 8908,
+      "gen_tokens": 80,
+      "retries": 1,
+      "tool_stall_sec": 0.201,
+      "avg_ttft_sec": 0.0365,
+      "wall_sec": 1.786
+    },
+    "retry_4096_2_0.5_e78793": {
+      "generate_calls": 1,
+      "prompt_tokens": 4454,
+      "gen_tokens": 40,
+      "retries": 0,
+      "tool_stall_sec": 0.1,
+      "avg_ttft_sec": 0.0367,
+      "wall_sec": 0.892
+    },
+    "retry_4096_2_1.0_da83c6": {
+      "generate_calls": 3,
+      "prompt_tokens": 13362,
+      "gen_tokens": 120,
+      "retries": 2,
+      "tool_stall_sec": 0.301,
+      "avg_ttft_sec": 0.0364,
+      "wall_sec": 2.681
+    },
+    "retry_4096_4_0.5_89750d": {
+      "generate_calls": 3,
+      "prompt_tokens": 13362,
+      "gen_tokens": 120,
+      "retries": 2,
+      "tool_stall_sec": 0.301,
+      "avg_ttft_sec": 0.0363,
+      "wall_sec": 2.681
+    },
+    "retry_4096_4_1.0_2e374f": {
+      "generate_calls": 5,
+      "prompt_tokens": 22270,
+      "gen_tokens": 200,
+      "retries": 4,
+      "tool_stall_sec": 0.503,
+      "avg_ttft_sec": 0.0365,
+      "wall_sec": 4.462
+    },
+    "retry_8192_1_0.5_728d12": {
+      "generate_calls": 0,
+      "prompt_tokens": 0,
+      "gen_tokens": 0,
+      "retries": 0,
+      "tool_stall_sec": 0.0,
+      "avg_ttft_sec": null,
+      "wall_sec": 0.0
+    }
+  },
+  "kv_cache": {
+    "gpu_usage_pct_mean": 0.0111,
+    "gpu_usage_pct_max": 0.0208,
+    "total_preemptions": 0,
+    "num_snapshots": 49
+  },
+  "derived_metrics": {
+    "retry_prefill_savings": [
+      {
+        "session_id": "retry_1024_1_1.0_c6d1cb",
+        "initial_ttft_avg": 0.0288,
+        "retry_ttft_avg": 0.0282,
+        "savings_ratio": 0.0221,
+        "savings_ms": 0.64
+      },
+      {
+        "session_id": "retry_1024_2_0.5_7616d4",
+        "initial_ttft_avg": 0.0282,
+        "retry_ttft_avg": 0.0284,
+        "savings_ratio": -0.0059,
+        "savings_ms": -0.17
+      },
+      {
+        "session_id": "retry_1024_2_1.0_265687",
+        "initial_ttft_avg": 0.0282,
+        "retry_ttft_avg": 0.0283,
+        "savings_ratio": -0.0031,
+        "savings_ms": -0.09
+      },
+      {
+        "session_id": "retry_1024_4_1.0_1ad5a1",
+        "initial_ttft_avg": 0.0282,
+        "retry_ttft_avg": 0.0284,
+        "savings_ratio": -0.0067,
+        "savings_ms": -0.19
+      },
+      {
+        "session_id": "retry_4096_1_1.0_dac1c8",
+        "initial_ttft_avg": 0.0363,
+        "retry_ttft_avg": 0.0367,
+        "savings_ratio": -0.0122,
+        "savings_ms": -0.44
+      },
+      {
+        "session_id": "retry_4096_2_1.0_da83c6",
+        "initial_ttft_avg": 0.0366,
+        "retry_ttft_avg": 0.0363,
+        "savings_ratio": 0.0075,
+        "savings_ms": 0.27
+      },
+      {
+        "session_id": "retry_4096_4_0.5_89750d",
+        "initial_ttft_avg": 0.0365,
+        "retry_ttft_avg": 0.0363,
+        "savings_ratio": 0.0042,
+        "savings_ms": 0.15
+      },
+      {
+        "session_id": "retry_4096_4_1.0_2e374f",
+        "initial_ttft_avg": 0.0383,
+        "retry_ttft_avg": 0.036,
+        "savings_ratio": 0.0592,
+        "savings_ms": 2.27
+      }
+    ],
+    "stall_periods": [
+      {
+        "tool_name": "flaky",
+        "bucket": "short",
+        "duration_sec": 0.1005,
+        "mean_gpu_pct": 0.0053,
+        "waste_gpu_mem_sec": 0.0005
+      },
+      {
+        "tool_name": "flaky",
+        "bucket": "short",
+        "duration_sec": 0.1007,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "flaky",
+        "bucket": "short",
+        "duration_sec": 0.1005,
+        "mean_gpu_pct": 0.0053,
+        "waste_gpu_mem_sec": 0.0005
+      },
+      {
+        "tool_name": "flaky",
+        "bucket": "short",
+        "duration_sec": 0.1005,
+        "mean_gpu_pct": 0.0053,
+        "waste_gpu_mem_sec": 0.0005
+      },
+      {
+        "tool_name": "flaky",
+        "bucket": "short",
+        "duration_sec": 0.1005,
+        "mean_gpu_pct": 0.0054,
+        "waste_gpu_mem_sec": 0.0005
+      },
+      {
+        "tool_name": "flaky",
+        "bucket": "short",
+        "duration_sec": 0.1005,
+        "mean_gpu_pct": 0.0053,
+        "waste_gpu_mem_sec": 0.0005
+      },
+      {
+        "tool_name": "flaky",
+        "bucket": "short",
+        "duration_sec": 0.1007,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "flaky",
+        "bucket": "short",
+        "duration_sec": 0.1005,
+        "mean_gpu_pct": 0.0053,
+        "waste_gpu_mem_sec": 0.0005
+      },
+      {
+        "tool_name": "flaky",
+        "bucket": "short",
+        "duration_sec": 0.1005,
+        "mean_gpu_pct": 0.0053,
+        "waste_gpu_mem_sec": 0.0005
+      },
+      {
+        "tool_name": "flaky",
+        "bucket": "short",
+        "duration_sec": 0.1005,
+        "mean_gpu_pct": 0.0054,
+        "waste_gpu_mem_sec": 0.0005
+      },
+      {
+        "tool_name": "flaky",
+        "bucket": "short",
+        "duration_sec": 0.1005,
+        "mean_gpu_pct": 0.0053,
+        "waste_gpu_mem_sec": 0.0005
+      },
+      {
+        "tool_name": "flaky",
+        "bucket": "short",
+        "duration_sec": 0.1004,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "flaky",
+        "bucket": "short",
+        "duration_sec": 0.1005,
+        "mean_gpu_pct": 0.0053,
+        "waste_gpu_mem_sec": 0.0005
+      },
+      {
+        "tool_name": "flaky",
+        "bucket": "short",
+        "duration_sec": 0.1002,
+        "mean_gpu_pct": 0.0053,
+        "waste_gpu_mem_sec": 0.0005
+      },
+      {
+        "tool_name": "flaky",
+        "bucket": "short",
+        "duration_sec": 0.1005,
+        "mean_gpu_pct": 0.0053,
+        "waste_gpu_mem_sec": 0.0005
+      },
+      {
+        "tool_name": "flaky",
+        "bucket": "short",
+        "duration_sec": 0.1007,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "flaky",
+        "bucket": "short",
+        "duration_sec": 0.1005,
+        "mean_gpu_pct": 0.0208,
+        "waste_gpu_mem_sec": 0.0021
+      },
+      {
+        "tool_name": "flaky",
+        "bucket": "short",
+        "duration_sec": 0.1005,
+        "mean_gpu_pct": 0.0208,
+        "waste_gpu_mem_sec": 0.0021
+      },
+      {
+        "tool_name": "flaky",
+        "bucket": "short",
+        "duration_sec": 0.1005,
+        "mean_gpu_pct": 0.0208,
+        "waste_gpu_mem_sec": 0.0021
+      },
+      {
+        "tool_name": "flaky",
+        "bucket": "short",
+        "duration_sec": 0.1006,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "flaky",
+        "bucket": "short",
+        "duration_sec": 0.1005,
+        "mean_gpu_pct": 0.0208,
+        "waste_gpu_mem_sec": 0.0021
+      },
+      {
+        "tool_name": "flaky",
+        "bucket": "short",
+        "duration_sec": 0.1004,
+        "mean_gpu_pct": 0.0208,
+        "waste_gpu_mem_sec": 0.0021
+      },
+      {
+        "tool_name": "flaky",
+        "bucket": "short",
+        "duration_sec": 0.1005,
+        "mean_gpu_pct": 0.0208,
+        "waste_gpu_mem_sec": 0.0021
+      },
+      {
+        "tool_name": "flaky",
+        "bucket": "short",
+        "duration_sec": 0.1005,
+        "mean_gpu_pct": 0.0208,
+        "waste_gpu_mem_sec": 0.0021
+      },
+      {
+        "tool_name": "flaky",
+        "bucket": "short",
+        "duration_sec": 0.1004,
+        "mean_gpu_pct": 0.0208,
+        "waste_gpu_mem_sec": 0.0021
+      },
+      {
+        "tool_name": "flaky",
+        "bucket": "short",
+        "duration_sec": 0.1005,
+        "mean_gpu_pct": 0.0208,
+        "waste_gpu_mem_sec": 0.0021
+      },
+      {
+        "tool_name": "flaky",
+        "bucket": "short",
+        "duration_sec": 0.1005,
+        "mean_gpu_pct": 0.0208,
+        "waste_gpu_mem_sec": 0.0021
+      },
+      {
+        "tool_name": "flaky",
+        "bucket": "short",
+        "duration_sec": 0.1005,
+        "mean_gpu_pct": 0.0208,
+        "waste_gpu_mem_sec": 0.0021
+      },
+      {
+        "tool_name": "flaky",
+        "bucket": "short",
+        "duration_sec": 0.1007,
+        "mean_gpu_pct": 0.0,
+        "waste_gpu_mem_sec": 0.0
+      },
+      {
+        "tool_name": "flaky",
+        "bucket": "short",
+        "duration_sec": 0.1005,
+        "mean_gpu_pct": 0.0208,
+        "waste_gpu_mem_sec": 0.0021
+      }
+    ],
+    "branch_prefix_reuse": [],
+    "avg_retry_savings_ratio": 0.0081
+  },
+  "global": {
+    "total_retries": 18,
+    "ttft_p50": 0.0357,
+    "ttft_p95": 0.0383,
+    "ttft_mean": 0.0947
+  }
+}
